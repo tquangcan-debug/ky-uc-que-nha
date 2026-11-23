@@ -150,7 +150,7 @@
   },
   {
    "narration": "Lần đầu tôi múc được nửa gàu.",
-   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, an 8-year-old Vietnamese girl with two short pigtails, sun-tanned face, faded brown short-sleeve shirt, black trousers, barefoot laughing proudly, holding up a tin bucket half full of water beside the well, the grandmother smiling behind her, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, seen from behind: an 8-year-old Vietnamese girl with two short pigtails and her grandmother walking side by side along a village path carrying a small bucket of water, banyan tree and well in the distance, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
    "motion": "zoom_out",
    "sfx": "tre_con",
    "on_screen_text": "",
@@ -300,7 +300,7 @@
   },
   {
    "narration": "Điều tôi nhớ nhất, là mẹ nói:",
-   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, close-up of a Vietnamese peasant woman in her early 30s wearing a brown áo cánh blouse, black trousers and a black mỏ quạ headscarf sitting on the edge of the well at night, moonlight on her face and hair, gentle smile, looking at her daughter, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, seen from behind at a distance: a Vietnamese peasant woman in a brown blouse and black headscarf sitting on the edge of a round laterite-stone well at dusk, looking at the rice fields, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
    "motion": "zoom_in",
    "sfx": "",
    "on_screen_text": "",

@@ -18,7 +18,7 @@ Bien moi truong (deu co mac dinh):
   TARGET_SECONDS   mac dinh 178  (duoi gioi han 180 giay cua Shorts)
   MUSIC_DIR, SFX_DIR, FONT_FILE, FONT_NAME, CHANNEL_NAME, FILM_LOOK (1/0)
 """
-import json, os, random, re, subprocess, sys, time, urllib.parse, urllib.request, base64, asyncio, shutil
+import json, os, random, re, subprocess, sys, time, urllib.parse, urllib.request, urllib.error, base64, asyncio, shutil
 
 W, H, FPS = 1080, 1920, 30
 XF = 0.5          # thoi gian chuyen canh (giay)
@@ -117,16 +117,25 @@ def gen_image(prompt, out, provider, mock_idx=None):
         if not (acc and tok) and ENV("CF_FILE") and os.path.exists(ENV("CF_FILE")):
             lines = [l.strip() for l in open(ENV("CF_FILE"), encoding="utf-8-sig") if l.strip()]
             acc, tok = lines[0], lines[1]
-        model = ENV("CF_IMAGE_MODEL", "@cf/black-forest-labs/flux-1-schnell")
-        body = {"prompt": prompt + STYLE, "steps": int(ENV("CF_STEPS", "8"))}
-        if ENV("CF_SIZE", "1"):   # mo hinh nao ho tro thi lay khung doc
-            body.update({"width": int(ENV("CF_W", "768")), "height": int(ENV("CF_H", "1344"))})
+        model = ENV("CF_IMAGE_MODEL", "@cf/black-forest-labs/flux-2-klein-4b")
+        fields = {"prompt": prompt + STYLE, "width": ENV("CF_W", "768"), "height": ENV("CF_H", "1344")}
+        if ENV("CF_STEPS"):
+            fields["steps"] = ENV("CF_STEPS")
+        if "flux-2" in model:      # FLUX.2 tren Cloudflare nhan multipart/form-data
+            bnd = "----kuqn" + str(random.randint(10**8, 10**9))
+            data = "".join(f'--{bnd}\r\nContent-Disposition: form-data; name="{k}"\r\n\r\n{v}\r\n'
+                           for k, v in fields.items()).encode("utf-8") + f"--{bnd}--\r\n".encode()
+            ctype = f"multipart/form-data; boundary={bnd}"
+        else:
+            body = {"prompt": fields["prompt"], "steps": int(ENV("CF_STEPS", "8"))}
+            if ENV("CF_SIZE", "1"):
+                body.update({"width": int(fields["width"]), "height": int(fields["height"])})
+            data, ctype = json.dumps(body).encode(), "application/json"
         for attempt in range(4):
             try:
                 req = urllib.request.Request(
                     f"https://api.cloudflare.com/client/v4/accounts/{acc}/ai/run/{model}",
-                    data=json.dumps(body).encode(), headers={"Authorization": f"Bearer {tok}",
-                                                             "Content-Type": "application/json"})
+                    data=data, headers={"Authorization": f"Bearer {tok}", "Content-Type": ctype})
                 with urllib.request.urlopen(req, timeout=180) as r:
                     raw = r.read()
                 try:
@@ -136,6 +145,10 @@ def gen_image(prompt, out, provider, mock_idx=None):
                 if len(img) > 20000:
                     open(out, "wb").write(img)
                     return
+            except urllib.error.HTTPError as e:
+                log("cloudflare loi", e.code, e.read()[:300])
+                if e.code in (400, 401, 403):
+                    raise SystemExit(f"Cloudflare tu choi ({e.code}), kiem tra token/model")
             except Exception as e:
                 log("cloudflare loi, thu lai:", e)
             time.sleep(15 * (attempt + 1))
@@ -191,7 +204,7 @@ def tts(text, out, mock=False, accent="bac"):
 
     async def go():
         await edge_tts.Communicate(text, VOICE, rate=RATE, pitch=PITCH).save(out)
-    for attempt in range(3):
+    for attempt in range(6):
         try:
             asyncio.run(go())
             if os.path.getsize(out) > 1000:
