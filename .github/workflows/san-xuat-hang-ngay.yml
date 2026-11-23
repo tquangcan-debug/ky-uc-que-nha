@@ -37,6 +37,7 @@ jobs:
       MUSIC_DIR: ${{ github.workspace }}/music
       SFX_DIR: ${{ github.workspace }}/sfx
       X264_PRESET: medium
+      MUSIC_URL: ${{ vars.MUSIC_URL || 'https://incompetech.com/music/royalty-free/mp3-royaltyfree/Evening%20Fall%20-%20Harp.mp3' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -54,7 +55,7 @@ jobs:
           pip install -q edge-tts google-api-python-client google-auth google-auth-oauthlib
           mkdir -p fonts music sfx
           curl -sL -o fonts/BeVietnamPro-SemiBold.ttf https://github.com/google/fonts/raw/main/ofl/bevietnampro/BeVietnamPro-SemiBold.ttf
-          if [ -n "${{ vars.MUSIC_URL }}" ]; then curl -sL -o music/nhac.mp3 "${{ vars.MUSIC_URL }}"; fi
+          if [ -n "$MUSIC_URL" ]; then curl -sL -o music/nhac.mp3 "$MUSIC_URL"; fi
 
       - name: Dung video
         if: steps.tap.outputs.file != ''
@@ -80,7 +81,7 @@ jobs:
         env:
           YT_TOKEN_JSON: ${{ secrets.YT_TOKEN_JSON }}
           YT_CLIENT_SECRET_JSON: ${{ secrets.YT_CLIENT_SECRET_JSON }}
-          MUSIC_CREDIT: ${{ vars.MUSIC_CREDIT }}
+          MUSIC_CREDIT: "${{ vars.MUSIC_CREDIT || 'Nhạc - Evening Fall (Harp) Kevin MacLeod (incompetech.com) · Licensed under Creative Commons: By Attribution 4.0 · https://creativecommons.org/licenses/by/4.0/' }}"
         run: |
           if [ "${{ github.event.inputs.privacy }}" = "private-khong-hen" ]; then extra="--publish-at="; else extra=""; fi
           python3 scripts/yt_upload.py jobs/tap $extra | tee jobs/yt.log
