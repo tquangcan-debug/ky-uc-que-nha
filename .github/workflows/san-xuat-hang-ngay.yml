@@ -1,8 +1,8 @@
 name: San xuat video hang ngay
 
 on:
-  schedule:
-    - cron: "0 22 * * *"        # 5h sang gio Viet Nam
+  # schedule:
+    # - cron: "0 22 * * *"   # TAM TAT: chuyen sang khuon POV, bat lai khi Dai Ca duyet
   workflow_dispatch:
     inputs:
       tap:

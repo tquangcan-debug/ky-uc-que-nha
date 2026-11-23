@@ -5,3 +5,4 @@ jobs/
 client_secret*.json
 youtube-token.json
 cloudflare.txt
+__pycache__/

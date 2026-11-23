@@ -1,0 +1,28 @@
+{
+ "title": "POV: Bạn là đứa trẻ làng quê năm 1988 · Giếng làng buổi sớm",
+ "banner": "POV: Bạn là đứa trẻ làng quê năm 1988\n5 giờ sáng, theo mẹ ra giếng làng",
+ "thumbnail_clip": 2,
+ "thumbnail_text": "GIẾNG LÀNG 1988",
+ "end_question": "Nhà bạn ngày xưa gánh nước ở giếng nào?",
+ "style": "Photorealistic 35mm film photograph, first-person point of view, Red River Delta village in northern Vietnam, summer 1988, soft dawn light, warm faded Kodak Gold colors, fine film grain, authentic period details, no modern objects, no electric wires, no text, no logos",
+ "clips": [
+  {"prompt": "first-person view looking down at a child's small bare feet on a packed-earth village path at dawn, morning mist, bamboo hedges on both sides, a woman's figure walking ahead seen from behind carrying two buckets on a bamboo shoulder pole", "caption": "Trời còn mờ sương", "move": "push", "sfx": "ga_gay"},
+  {"prompt": "wide view of an old round laterite-stone well under a huge banyan tree at the village entrance, mist, a few villagers far away waiting with buckets, seen from behind", "caption": "Giếng đá ong đầu làng", "move": "push", "sfx": "chim"},
+  {"prompt": "first-person view over the rim of a round laterite-stone well looking down at dark still water reflecting the pale sky, a tin bucket on a coir rope descending", "caption": "Gàu tôn thả xuống", "move": "down", "sfx": "nuoc"},
+  {"prompt": "close-up of a woman's weathered hands pulling a wet coir rope hand over hand at a stone well, water dripping, no face visible", "caption": "Tay mẹ kéo dây", "move": "up", "sfx": "nuoc"},
+  {"prompt": "close-up of clear well water pouring from a tin bucket into a large brown ceramic jar, splashes catching first sunlight", "caption": "Nước mát lạnh", "move": "push", "sfx": "nuoc"},
+  {"prompt": "first-person view of a child's small hands holding a coconut-shell ladle full of water near a well, rice fields softly blurred behind", "caption": "Uống một ngụm ở gáo dừa", "move": "push", "sfx": "nuoc"},
+  {"prompt": "village women seen from behind at a distance, wearing conical hats and brown blouses, chatting around the well, bamboo shoulder poles leaning on the banyan tree", "caption": "Các bà, các cô nói chuyện rôm rả", "move": "pan_r", "sfx": "cho_que"},
+  {"prompt": "first-person view walking behind a woman carrying two full buckets on a bamboo shoulder pole along a narrow dyke between green rice paddies at sunrise, seen from behind", "caption": "Theo mẹ gánh nước về", "move": "push", "sfx": "buoc_chan"},
+  {"prompt": "a thatched-roof rural house with a yellow earthen wall, smoke rising from the kitchen, a big brown water jar by the door, chickens in the yard, morning sun", "caption": "Khói bếp đã lên", "move": "pan_l", "sfx": "ga_gay"},
+  {"prompt": "close-up of a wooden lid being placed on a large brown ceramic water jar in a rural courtyard, soft morning light, bamboo hedge behind", "caption": "Đầy chum, mẹ mới nghỉ tay", "move": "push", "sfx": "chim"},
+  {"prompt": "the old laterite well under the banyan tree in golden morning light, empty, quiet, mist lifting over the rice fields", "caption": "Giếng làng ngày ấy", "move": "pull", "sfx": "chim"}
+ ],
+ "meta": {
+  "youtube_description": "POV: Bạn là đứa trẻ làng quê Bắc Bộ năm 1988, 5 giờ sáng theo mẹ ra giếng đá ong đầu làng gánh nước. Làng quê ngày ấy, tập 1. Nhà bạn ngày xưa gánh nước ở giếng nào? Hình ảnh được tái hiện bằng AI dựa trên tư liệu và ký ức. #Shorts #VietNamXua #LangQue",
+  "tags": ["POV Việt Nam xưa","làng quê Việt Nam xưa","giếng làng","làng quê ngày ấy","Việt Nam thập niên 80","Việt Nam xưa","ký ức quê nhà","hoài niệm","tuổi thơ","old Vietnam"],
+  "tiktok": "POV: Bạn là đứa trẻ làng quê năm 1988 #vietnamxua #pov #langque #hoainiem #kyuc",
+  "playlist": "Làng quê ngày ấy",
+  "publish": "2026-11-30T19:00:00+07:00"
+ }
+}
