@@ -150,6 +150,9 @@ def main():
     sc = json.load(open(os.path.join(job, "script.json"), encoding="utf-8"))
     clips = sc["clips"]
     provider = "mock" if mock else ENV("IMAGE_PROVIDER", "cloudflare")
+    base = float(sc.get("clip_seconds", CLIP))
+    durs = [float(c.get("seconds", base)) for c in clips]          # do dai tung clip (cat nhanh o dau)
+    starts = [sum(durs[:i]) for i in range(len(clips))]
     for d in ("images", "parts"):
         os.makedirs(os.path.join(job, d), exist_ok=True)
 
@@ -165,7 +168,7 @@ def main():
     for i, c in enumerate(clips):
         part = os.path.join(job, "parts", f"c_{i:02d}.mp4")
         if not os.path.exists(part):
-            render_clip(os.path.join(job, "images", f"clip_{i:02d}.png"), part, CLIP + XF, c.get("move", "push"), mock)
+            render_clip(os.path.join(job, "images", f"clip_{i:02d}.png"), part, durs[i] + XF, c.get("move", "push"), mock)
         parts.append(part)
     # canh ket: anh cuoi lam mo
     last_img = os.path.join(job, "images", f"clip_{len(clips) - 1:02d}.png")
@@ -177,13 +180,13 @@ def main():
     parts.append(end_part)
 
     n = len(clips)
-    total = round(n * CLIP + END, 3)
+    total = round(sum(durs) + END, 3)
 
     # 3) chu
     cues = []
     for i, c in enumerate(clips):
-        a = i * CLIP + 0.35
-        cues.append((a, a + CLIP - 0.5, c.get("caption", "")))
+        a = starts[i] + 0.25
+        cues.append((a, a + durs[i] - 0.35, c.get("caption", "")))
     ass = os.path.join(job, "subs.ass")
     write_ass(ass, sc.get("banner", ""), [x for x in cues if x[2]], sc.get("end_question", ""), total)
 
@@ -192,7 +195,7 @@ def main():
     for p in parts:
         inputs += ["-i", p]
     prev, off = "[0:v]", 0.0
-    lens = [CLIP + XF] * n + [END]
+    lens = [d + XF for d in durs] + [END]
     for k in range(1, len(parts)):
         off += lens[k - 1] - XF
         lab = f"[x{k}]"
@@ -214,9 +217,9 @@ def main():
         if not hit:
             continue
         a_in += ["-i", f]
-        st = i * CLIP
-        a_fc.append(f"[{idx}:a]aresample=48000,aformat=channel_layouts=stereo,atrim=0:{CLIP + 0.6:.2f},"
-                    f"afade=t=in:d=0.3,afade=t=out:st={CLIP - 0.4:.2f}:d=1.0,volume={ENV('SFX_VOL', '0.55')},"
+        st, dc = starts[i], durs[i]
+        a_fc.append(f"[{idx}:a]aresample=48000,aformat=channel_layouts=stereo,atrim=0:{dc + 0.6:.2f},"
+                    f"afade=t=in:d=0.3,afade=t=out:st={dc - 0.4:.2f}:d=1.0,volume={ENV('SFX_VOL', '0.55')},"
                     f"adelay={int(st * 1000)}:all=1[s{idx}]")
         labs.append(f"[s{idx}]")
         idx += 1
