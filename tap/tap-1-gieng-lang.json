@@ -1,0 +1,371 @@
+{
+ "title": "Làng quê Việt Nam xưa · Giếng làng buổi sớm",
+ "era": "Đồng bằng Bắc Bộ, hè 1988",
+ "accent": "bac",
+ "hook_text": "Nhà bạn ngày xưa gánh nước ở giếng nào?",
+ "thumbnail_scene": 11,
+ "thumbnail_text": "GIẾNG LÀNG 1988",
+ "music_mood": "sao_truc",
+ "outro_text": "Tập sau: Tàu điện leng keng · 19h",
+ "scenes": [
+  {
+   "narration": "Nhà bạn ngày xưa gánh nước ở giếng nào?",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, close-up of a dented tin bucket on a coir rope dropping into a round laterite-stone village well, water surface sparkling in early sunlight, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "nuoc",
+   "on_screen_text": "",
+   "ai_clip": true,
+   "motion_prompt": "slow push-in, bucket touches the water, ripples spread, sunlight glitters",
+   "seconds": 4
+  },
+  {
+   "narration": "Làng tôi có một cái giếng đá ong dưới gốc đa.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, wide shot of an old round laterite-stone well under a huge banyan tree at the village entrance, morning mist, bamboo hedge behind, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_out",
+   "sfx": "ga_gay",
+   "on_screen_text": "Giếng làng, 1988",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Cả làng uống chung một mạch nước ấy.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a few villagers waiting with tin buckets and bamboo shoulder poles beside the banyan-tree well at dawn, soft mist, figures seen from a distance, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_right",
+   "sfx": "chim",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Năm tôi tám tuổi, mẹ gọi tôi dậy từ lúc trời còn tối.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, inside a dark thatched-roof mud house before dawn, a Vietnamese peasant woman in her early 30s wearing a brown áo cánh blouse, black trousers and a black mỏ quạ headscarf tying her headscarf by the light of a small kerosene lamp, wooden bed with a mosquito net, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "static",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, inside a dark thatched house lit by a kerosene lamp, an 8-year-old Vietnamese girl with two short pigtails, sun-tanned face, faded brown short-sleeve shirt, black trousers, barefoot sitting up on a bamboo bed rubbing her sleepy eyes, mosquito net pulled back, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Cuối video, tôi sẽ kể điều tôi nhớ nhất về cái giếng ấy.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, close-up of a flickering kerosene lamp with a glass chimney on a wooden table, a bamboo shoulder pole leaning against an earthen wall in the background, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "de_keu",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Con đường gạch nghiêng chạy qua lũy tre.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a narrow village lane paved with bricks laid on edge in a herringbone pattern, tall bamboo hedges on both sides, blue dawn light, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_up",
+   "sfx": "chim",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Mẹ gánh hai thùng tôn, tôi xách cái ấm nhôm méo.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, back view of a Vietnamese peasant woman in her early 30s wearing a brown áo cánh blouse, black trousers and a black mỏ quạ headscarf carrying two empty tin buckets on a bamboo shoulder pole, walking down the brick lane, an 8-year-old Vietnamese girl with two short pigtails, sun-tanned face, faded brown short-sleeve shirt, black trousers, barefoot following with a dented aluminium kettle, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_left",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, close-up of bare feet of a child and a woman walking on old herringbone brick lane, dew on the bricks, bamboo leaves, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_right",
+   "sfx": "chim",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Ra tới giếng đã thấy các thùng xếp hàng.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a neat row of tin buckets and wooden buckets lined up on the ground beside a laterite well under a banyan tree, early morning, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_left",
+   "sfx": "tieng_nguoi",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Ai đến trước múc trước, chẳng ai phải nhắc.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, village women in áo cánh and conical nón lá chatting quietly while waiting their turn at the well, morning light through banyan leaves, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "static",
+   "sfx": "tieng_nguoi",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Mẹ quăng gàu một cái là đầy.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, close-up of a woman's hands pulling a coir rope over the stone rim of a well, a full tin bucket rising, water spilling, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "nuoc",
+   "on_screen_text": "",
+   "ai_clip": true,
+   "motion_prompt": "hands pull the rope hand over hand, water spills from the bucket, natural motion, static camera",
+   "seconds": 4
+  },
+  {
+   "narration": "Tôi tập mãi, gàu cứ nổi lềnh bềnh trên mặt nước.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, an 8-year-old Vietnamese girl with two short pigtails, sun-tanned face, faded brown short-sleeve shirt, black trousers, barefoot leaning over the edge of the well holding a rope, frowning in concentration, a tin bucket floating on the water far below, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "nuoc",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Bà Tư cạnh nhà cầm tay tôi: nghiêng cổ tay thế này, cháu ạ.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, an elderly Vietnamese grandmother with grey hair in a bun and a dark áo cánh guiding the hands of an 8-year-old Vietnamese girl with two short pigtails, sun-tanned face, faded brown short-sleeve shirt, black trousers, barefoot on a well rope, gentle smile, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "",
+   "on_screen_text": "Bà Tư",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Lần đầu tôi múc được nửa gàu.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, an 8-year-old Vietnamese girl with two short pigtails, sun-tanned face, faded brown short-sleeve shirt, black trousers, barefoot laughing proudly, holding up a tin bucket half full of water beside the well, the grandmother smiling behind her, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_out",
+   "sfx": "tre_con",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Nước giếng mùa hè mát lạnh.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, close-up of clear cold well water poured from a bucket into a basin, droplets sparkling in sunlight, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "static",
+   "sfx": "nuoc",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Bọn trẻ vốc lên mặt, hét ầm cả gốc đa.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, barefoot village children splashing well water on their faces and laughing under the banyan tree, water droplets flying, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_right",
+   "sfx": "tre_con",
+   "on_screen_text": "",
+   "ai_clip": true,
+   "motion_prompt": "children splash water and laugh, droplets fly, slow motion feel, static camera",
+   "seconds": 4
+  },
+  {
+   "narration": "Mẹ bẻ hai cành lá tre thả vào thùng cho nước khỏi sóng.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, close-up of two bamboo sprigs floating on the water surface in a full tin bucket hanging from a shoulder pole, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "",
+   "on_screen_text": "Mẹo của bà",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Bây giờ tôi mới biết đó là mẹo của bà ngoại.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, back view of a Vietnamese peasant woman in her early 30s wearing a brown áo cánh blouse, black trousers and a black mỏ quạ headscarf carrying two full water buckets on a shoulder pole along the brick lane, an 8-year-old Vietnamese girl with two short pigtails, sun-tanned face, faded brown short-sleeve shirt, black trousers, barefoot walking beside her, warm morning sun, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_left",
+   "sfx": "chim",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Nước đổ đầy chum.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, inside a rural kitchen yard, water poured from a tin bucket into a large brown glazed ceramic water jar (chum), splash, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "nuoc",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Cái gáo dừa mẹ để sẵn, ai khát thì múc uống.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, close-up of a coconut-shell ladle with a bamboo handle floating on water inside a big ceramic jar, reflections of sky, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "static",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Bố đi cày về, rửa tay bên chum.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a Vietnamese farmer in his 30s with a faded khaki shirt and rolled-up trousers, muddy legs, washing his hands with a coconut ladle beside a ceramic water jar, a plough leaning nearby, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_right",
+   "sfx": "trau",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Xoa đầu tôi: hôm nay con gánh được mấy đôi rồi?",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, the farmer father smiling and patting the head of an 8-year-old Vietnamese girl with two short pigtails, sun-tanned face, faded brown short-sleeve shirt, black trousers, barefoot in a sunlit courtyard of a thatched house, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Trưa hè giếng vắng người.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, the empty village well at noon under a banyan tree, harsh summer sunlight, deep shade, no people, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_out",
+   "sfx": "ve",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Chỉ có lá đa rơi, và tiếng ve kêu ra rả.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a single banyan leaf floating on the still dark water inside the well, light reflections, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "ve",
+   "on_screen_text": "",
+   "ai_clip": true,
+   "motion_prompt": "a leaf drifts slowly on the water, gentle ripples, static camera",
+   "seconds": 4
+  },
+  {
+   "narration": "Chiều về, giếng lại đông.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, golden hour at the village well, many villagers fetching water, long shadows, dust in the warm light, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_left",
+   "sfx": "tieng_nguoi",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Các chị trong làng vừa gánh vừa hát, tiếng hát vang tới tận đầu làng.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, young village women in nón lá carrying water buckets on shoulder poles along a rice-field dike at sunset, singing, silhouettes against a golden sky, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_right",
+   "sfx": "gio",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Có đêm trăng, tôi ra cúi nhìn xuống giếng.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, moonlit night, an 8-year-old Vietnamese girl with two short pigtails, sun-tanned face, faded brown short-sleeve shirt, black trousers, barefoot leaning over the stone rim of the well looking down, soft blue moonlight, banyan silhouette, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "de_keu",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Mặt trăng nằm dưới đáy, như ai đánh rơi.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, the reflection of a full moon on the dark water at the bottom of a round well, seen from above, stone rim framing it, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "de_keu",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Điều tôi nhớ nhất, là mẹ nói:",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, close-up of a Vietnamese peasant woman in her early 30s wearing a brown áo cánh blouse, black trousers and a black mỏ quạ headscarf sitting on the edge of the well at night, moonlight on her face and hair, gentle smile, looking at her daughter, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "nước giếng làng mình ngọt, đi đâu cũng nhớ mà về.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, mother and daughter sitting side by side on the edge of the village well under the moon, seen from behind, banyan branches above, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "static",
+   "sfx": "gio",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Bây giờ nhà nào cũng có nước máy. Cái giếng đã đậy nắp.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, the same old laterite well today, covered with a concrete lid, thick moss, the banyan tree still standing, soft afternoon light, quiet, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_out",
+   "sfx": "gio",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Nhưng mỗi lần về quê, tôi vẫn ra đứng đó một lúc.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, back view of a Vietnamese woman in her 40s in simple clothes standing alone beside the old covered well under the banyan tree, golden light, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "gio",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Còn bạn, giếng làng bạn ở đâu? Kể cho Ký Ức Quê Nhà nghe nhé.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, close-up of a dented tin bucket on a coir rope dropping into a round laterite-stone village well, water surface sparkling in early sunlight, Red River Delta village in northern Vietnam, summer 1988, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "nuoc",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  }
+ ],
+ "meta": {
+  "youtube_description": "Làng quê Việt Nam xưa những năm 1980: buổi sớm gánh nước ở giếng đá ong đầu làng cùng mẹ. Làng quê ngày ấy, tập 1. Nhà bạn ngày xưa gánh nước ở giếng nào? Hình ảnh được tái hiện bằng AI dựa trên tư liệu và ký ức. #Shorts #LangQueVietNam #VietNamXua",
+  "tags": [
+   "làng quê Việt Nam xưa",
+   "giếng làng",
+   "làng quê ngày ấy",
+   "Việt Nam thập niên 80",
+   "Việt Nam xưa",
+   "Việt Nam ngày ấy",
+   "ký ức quê nhà",
+   "đồng bằng Bắc Bộ",
+   "hoài niệm",
+   "old Vietnam village"
+  ],
+  "pinned_comment": "Nhà bạn ngày xưa gánh nước ở giếng nào? Giếng làng, giếng khơi hay ao làng?",
+  "tiktok": "Nhà bạn ngày xưa gánh nước ở giếng nào? #vietnamxua #langque #hoainiem #kyuc #langquengayay",
+  "playlist": "Làng quê ngày ấy",
+  "publish": "2026-11-30T19:00:00+07:00"
+ }
+}

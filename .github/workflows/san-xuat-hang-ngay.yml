@@ -1,0 +1,104 @@
+name: San xuat video hang ngay
+
+on:
+  schedule:
+    - cron: "0 22 * * *"        # 5h sang gio Viet Nam
+  workflow_dispatch:
+    inputs:
+      tap:
+        description: "Ten file tap (vd tap-1). De trong = tap co ngay dang hom nay"
+        required: false
+        default: ""
+      privacy:
+        description: "private (hen gio theo lich) | private-khong-hen (chi minh anh xem) | none (chi dung, khong tai len)"
+        required: false
+        default: "private"
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency: san-xuat
+
+jobs:
+  dung-va-dang:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      TZ: Asia/Ho_Chi_Minh
+      IMAGE_PROVIDER: cloudflare
+      CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+      CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+      CF_IMAGE_MODEL: ${{ vars.CF_IMAGE_MODEL || '@cf/black-forest-labs/flux-2-klein-4b' }}
+      CF_W: "768"
+      CF_H: "1344"
+      FONT_FILE: ${{ github.workspace }}/fonts/BeVietnamPro-SemiBold.ttf
+      FONT_NAME: Be Vietnam Pro SemiBold
+      MUSIC_DIR: ${{ github.workspace }}/music
+      SFX_DIR: ${{ github.workspace }}/sfx
+      X264_PRESET: medium
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Chon tap
+        id: tap
+        run: |
+          f=$(python3 scripts/chon_tap.py "${{ github.event.inputs.tap }}")
+          echo "file=$f" >> "$GITHUB_OUTPUT"
+          if [ -z "$f" ]; then echo "Hom nay khong co tap nao trong thu muc tap/"; fi
+
+      - name: Cai cong cu
+        if: steps.tap.outputs.file != ''
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+          pip install -q edge-tts google-api-python-client google-auth google-auth-oauthlib
+          mkdir -p fonts music sfx
+          curl -sL -o fonts/BeVietnamPro-SemiBold.ttf https://github.com/google/fonts/raw/main/ofl/bevietnampro/BeVietnamPro-SemiBold.ttf
+          if [ -n "${{ vars.MUSIC_URL }}" ]; then curl -sL -o music/nhac.mp3 "${{ vars.MUSIC_URL }}"; fi
+
+      - name: Dung video
+        if: steps.tap.outputs.file != ''
+        run: |
+          mkdir -p jobs/tap && cp "${{ steps.tap.outputs.file }}" jobs/tap/script.json
+          python3 scripts/render.py jobs/tap | tee jobs/render.log
+          tail -1 jobs/render.log | python3 -c "import json,sys; d=json.load(sys.stdin); assert d['ok'], d"
+
+      - name: Luu ban dung (tai ve trong 7 ngay)
+        if: steps.tap.outputs.file != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: video
+          path: |
+            jobs/tap/youtube.mp4
+            jobs/tap/tiktok.mp4
+            jobs/tap/thumb.jpg
+          retention-days: 7
+
+      - name: Tai len YouTube
+        id: yt
+        if: steps.tap.outputs.file != '' && github.event.inputs.privacy != 'none'
+        env:
+          YT_TOKEN_JSON: ${{ secrets.YT_TOKEN_JSON }}
+          YT_CLIENT_SECRET_JSON: ${{ secrets.YT_CLIENT_SECRET_JSON }}
+          MUSIC_CREDIT: ${{ vars.MUSIC_CREDIT }}
+        run: |
+          if [ "${{ github.event.inputs.privacy }}" = "private-khong-hen" ]; then extra="--publish-at="; else extra=""; fi
+          python3 scripts/yt_upload.py jobs/tap $extra | tee jobs/yt.log
+          echo "json=$(tail -1 jobs/yt.log)" >> "$GITHUB_OUTPUT"
+
+      - name: Bao Dai Ca
+        if: always() && steps.tap.outputs.file != ''
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const ok = '${{ job.status }}' === 'success';
+            let yt = {};
+            try { yt = JSON.parse(process.env.YTJ || '{}'); } catch (e) {}
+            const run = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const body = ok
+              ? `Video da xong: ${{ steps.tap.outputs.file }}\n\nXem va sua tren YouTube Studio: ${yt.studio || '(chua tai len)'}\nHen cong khai: ${yt.publish_at || 'khong hen'}\n\nTai file video: ${run}`
+              : `Loi khi san xuat ${{ steps.tap.outputs.file }}. Chi tiet: ${run}`;
+            await github.rest.issues.create({ owner: context.repo.owner, repo: context.repo.repo,
+              title: (ok ? 'Video xong: ' : 'LOI: ') + '${{ steps.tap.outputs.file }}', body });
+        env:
+          YTJ: ${{ steps.yt.outputs.json }}

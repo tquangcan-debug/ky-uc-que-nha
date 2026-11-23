@@ -1,0 +1,7 @@
+jobs/
+*.mp4
+*.mp3
+*.m4a
+client_secret*.json
+youtube-token.json
+cloudflare.txt

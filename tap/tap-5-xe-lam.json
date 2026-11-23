@@ -1,0 +1,231 @@
+{
+ "title": "Sài Gòn xưa · Chuyến xe lam đi chợ sáng",
+ "era": "Sài Gòn, 1992",
+ "accent": "nam",
+ "hook_text": "Tiếng máy xe lam này, ai lớn lên ở Sài Gòn đều nhớ.",
+ "thumbnail_text": "XE LAM SÀI GÒN",
+ "music_mood": "dan_tranh",
+ "outro_text": "Tập sau: Thả diều trên đê · 19h",
+ "meta": {
+  "youtube_description": "Sài Gòn xưa những năm 1990: theo má đi chuyến xe lam ra chợ. Sài Gòn xưa, tập 1. Bạn từng đi xe lam chưa, kể mình nghe nghen. Hình ảnh được tái hiện bằng AI dựa trên tư liệu và ký ức. #Shorts #SaiGonXua #VietNamXua",
+  "tags": [
+   "Sài Gòn xưa",
+   "xe lam",
+   "Sài Gòn thập niên 90",
+   "Sài Gòn ngày ấy",
+   "Việt Nam xưa",
+   "Việt Nam ngày ấy",
+   "ký ức quê nhà",
+   "chợ Sài Gòn",
+   "hoài niệm",
+   "old Saigon"
+  ],
+  "pinned_comment": "Ngày xưa bạn đi xe lam tuyến nào? Còn nhớ giá vé không?",
+  "tiktok": "Tiếng máy xe lam này, ai lớn lên ở Sài Gòn đều nhớ. #saigonxua #vietnamxua #hoainiem #kyuc #saigon",
+  "playlist": "Sài Gòn xưa",
+  "publish": "2026-12-04T19:00:00+07:00"
+ },
+ "thumbnail_scene": 0,
+ "scenes": [
+  {
+   "narration": "Tiếng máy xe lam nè, ai lớn lên ở Sài Gòn chắc ai cũng nhớ.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a blue three-wheeled Lambro minibus puffing smoke along a street lined with tamarind trees, old Saigon street, southern Vietnam, 1992, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "",
+   "on_screen_text": "Sài Gòn, 1992",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, close-up of the front of an old blue Lambro three-wheeler, old Saigon street, southern Vietnam, 1992, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_right",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Sáng nào má cũng dắt tui ra đầu hẻm đón xe lam đi chợ.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a mother holding a woven sedge basket and a 9-year-old girl waving at the mouth of a narrow alley, old Saigon street, southern Vietnam, 1992, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_out",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Cuối video tui kể chuyện chú tài xế nghen.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a noodle vendor's cart at the alley entrance in the morning, old Saigon street, southern Vietnam, 1992, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_left",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Trong xe hai băng ghế dọc, người ngồi sát rạt.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, inside a Lambro with two long side benches, passengers sitting knee to knee, a basket of chickens on the floor, old Saigon street, southern Vietnam, 1992, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Có bà chở theo cả giỏ gà.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, an old woman holding a bamboo cage of chickens inside a Lambro, old Saigon street, southern Vietnam, 1992, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_right",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Tui khoái ngồi cuối, nhìn đường chạy lùi phía sau, gió thổi tóc bay.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a girl sitting at the open back of a Lambro holding the rail, watching the road behind, hair blowing, old Saigon street, southern Vietnam, 1992, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_out",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Ngoài đường xích lô, xe đạp, mấy tấm bảng hiệu sơn tay đủ màu.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a Saigon street with cyclos, bicycles and colourful hand-painted shop signs, old Saigon street, southern Vietnam, 1992, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_left",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, tall dipterocarp trees along an old Saigon boulevard, old Saigon street, southern Vietnam, 1992, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Chú tài xế hay quay lại dặn: ngồi cho chắc nghen con.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a smiling Lambro driver in a floppy bucket hat turning back to talk to passengers, old Saigon street, southern Vietnam, 1992, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_right",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Xe xóc một cái, cả xe nghiêng qua nghiêng lại, ai nấy cười rần.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, passengers laughing and leaning as a Lambro bumps over a pothole, old Saigon street, southern Vietnam, 1992, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_out",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Tới chợ, má trả mấy tờ tiền lẻ.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a mother handing small banknotes to the Lambro driver at a market, old Saigon street, southern Vietnam, 1992, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_left",
+   "sfx": "",
+   "on_screen_text": "Kẹo dừa",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Chú thối lại, còn cho tui viên kẹo dừa.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, the driver giving a little girl a wrapped coconut candy, old Saigon street, southern Vietnam, 1992, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Má lựa rau, mua cá, tui đứng cầm giỏ, nhìn ngó khắp nơi.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a busy morning market in Saigon, a mother choosing vegetables, old Saigon street, southern Vietnam, 1992, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_right",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a girl holding a basket looking around a busy market, old Saigon street, southern Vietnam, 1992, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_out",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Chiều về, tui ngủ gục trên vai má lúc nào không hay.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a Lambro driving home in golden afternoon light, a girl asleep on her mother's shoulder inside, old Saigon street, southern Vietnam, 1992, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_left",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Giờ xe lam không còn nữa.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a grown woman standing at the mouth of an old alley in late afternoon, looking back, old Saigon street, southern Vietnam, 1992, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Mà mỗi lần ăn kẹo dừa, tui lại nhớ nụ cười chú tài xế.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a coconut candy wrapped in paper on an open palm, close-up, old Saigon street, southern Vietnam, 1992, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_right",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Bạn từng đi xe lam chưa?",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a blue Lambro puffing smoke down a tamarind-lined street, morning light, old Saigon street, southern Vietnam, 1992, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_out",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Kể cho Ký Ức Quê Nhà nghe nghen.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a blue Lambro puffing smoke down a tamarind-lined street, morning light, old Saigon street, southern Vietnam, 1992, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_left",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  }
+ ]
+}

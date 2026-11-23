@@ -1,0 +1,271 @@
+{
+ "title": "Nghề xưa Việt Nam · Bác cắt tóc vỉa hè",
+ "era": "Thị xã miền Bắc, 1990",
+ "accent": "bac",
+ "hook_text": "Tiệm cắt tóc đầu tiên của bạn có giống thế này không?",
+ "thumbnail_text": "CẮT TÓC GỐC CÂY",
+ "music_mood": "sao_truc",
+ "outro_text": "Tập sau: Sổ gạo và tem phiếu · 19h",
+ "meta": {
+  "youtube_description": "Nghề xưa Việt Nam: tiệm cắt tóc chỉ có chiếc gương treo gốc bàng và cái ghế gỗ, những năm 1990. Nghề xưa, tập 1. Bác thợ cắt tóc đầu ngõ nhà bạn tên gì? Hình ảnh được tái hiện bằng AI dựa trên tư liệu và ký ức. #Shorts #NgheXua #VietNamXua",
+  "tags": [
+   "nghề xưa",
+   "cắt tóc vỉa hè",
+   "nghề xưa Việt Nam",
+   "Việt Nam xưa",
+   "Việt Nam ngày ấy",
+   "ký ức quê nhà",
+   "tuổi thơ 8x 9x",
+   "Việt Nam thập niên 90",
+   "hoài niệm",
+   "old Vietnam"
+  ],
+  "pinned_comment": "Ngày xưa bạn cắt kiểu đầu gì? Đầu cua, đầu đinh hay đầu ba phân?",
+  "tiktok": "Tiệm cắt tóc đầu tiên của bạn có giống thế này không? #nghexua #vietnamxua #hoainiem #tuoitho #kyuc",
+  "playlist": "Nghề xưa",
+  "publish": "2026-12-02T19:00:00+07:00"
+ },
+ "thumbnail_scene": 8,
+ "scenes": [
+  {
+   "narration": "Chiếc gương treo gốc cây, cái ghế gỗ đẩu.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a round mirror hanging on a nail on the trunk of an old Indian almond tree, a wooden stool below, a manual hair clipper on a small box, small provincial town street in northern Vietnam, 1990, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "",
+   "on_screen_text": "Nghề xưa, 1990",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Tiệm cắt tóc đầu tiên của bạn có giống thế này không?",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a pavement barber spot under a big almond tree, wooden stool and mirror, small provincial town street in northern Vietnam, 1990, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_right",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Bác Toàn mở hộp đồ nghề từ sáng sớm.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a kind middle-aged Vietnamese barber opening a worn wooden toolbox on the pavement at dawn, small provincial town street in northern Vietnam, 1990, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_out",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Cuối video là câu bác hay nói mà tôi nhớ đến giờ.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, scissors, comb, straight razor and a soft brush laid out neatly on a cloth, small provincial town street in northern Vietnam, 1990, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_left",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Hè nào mẹ cũng dắt tôi ra đây, cắt đầu cua cho mát.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a mother in a white blouse leading a reluctant 10-year-old boy by the hand to a pavement barber, small provincial town street in northern Vietnam, 1990, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Tôi thì sợ nhất cái tông đơ.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, the boy pulling a worried face looking at a manual hair clipper, small provincial town street in northern Vietnam, 1990, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_right",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Bác quàng tấm vải trắng, cài cái kẹp phơi quần áo sau gáy tôi.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, the barber draping a white cloth around a boy sitting on a wooden stool, small provincial town street in northern Vietnam, 1990, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_out",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, close-up of a wooden clothes peg clipping the white cloth at the back of the boy's neck, small provincial town street in northern Vietnam, 1990, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_left",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Tông đơ tay kêu lách cách.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, close-up of a manual hand clipper cutting short black hair, hair falling, small provincial town street in northern Vietnam, 1990, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Có lúc kẹp tóc, tôi nhăn mặt, bác lại cười khà khà.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, the barber laughing warmly while the boy winces, small provincial town street in northern Vietnam, 1990, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_right",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Mấy ông trong phố ngồi chờ, đọc báo, bàn chuyện thời sự rôm rả.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, old men sitting on low stools under the tree waiting their turn, reading newspapers and drinking tea from small cups, small provincial town street in northern Vietnam, 1990, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_out",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, an old man in a white undershirt holding a folded newspaper, teapot beside him, small provincial town street in northern Vietnam, 1990, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_left",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Bác quết xà phòng, cạo gáy nhẹ tay như cạo cho chính con mình.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, the barber brushing shaving soap foam on the back of a boy's neck, small provincial town street in northern Vietnam, 1990, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, close-up of a straight razor carefully shaving the nape of a boy's neck, small provincial town street in northern Vietnam, 1990, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_right",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Bác giơ cái gương con ra sau gáy: thấy chưa, đẹp trai chưa.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, the barber holding a small hand mirror behind the boy's head so he can see his haircut in the tree mirror, small provincial town street in northern Vietnam, 1990, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_out",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, the boy smiling shyly at his fresh short haircut in the round mirror, small provincial town street in northern Vietnam, 1990, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_left",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Chổi lông phủi tóc, phấn rôm thơm thơm.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, the barber brushing loose hair off the boy's neck with a soft brush, a puff of talcum powder, small provincial town street in northern Vietnam, 1990, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Thế là xong một cái đầu mùa hè.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, close-up of talcum powder on a soft brush, small provincial town street in northern Vietnam, 1990, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_right",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Mẹ trả tiền, bác cứ xua tay bớt cho.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, the mother handing small banknotes to the barber who waves his hand to give a discount, small provincial town street in northern Vietnam, 1990, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_out",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Người trong phố, ai cũng như người nhà.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, neighbours smiling on a quiet tree-lined street, small provincial town street in northern Vietnam, 1990, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_left",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Đến giờ, câu tôi nhớ nhất là bác bảo: đầu tóc gọn gàng thì làm gì cũng thẳng thắn.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a grown man standing alone before an old almond tree on a pavement, no mirror any more, afternoon light, small provincial town street in northern Vietnam, 1990, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, the bare trunk of an old almond tree with a rusty nail where a mirror used to hang, small provincial town street in northern Vietnam, 1990, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_right",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Bạn còn nhớ bác thợ cắt tóc đầu ngõ nhà mình không?",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a round mirror hanging on an old almond tree trunk reflecting the street, soft morning light, small provincial town street in northern Vietnam, 1990, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_out",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Kể cho Ký Ức Quê Nhà nghe nhé.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a round mirror hanging on an old almond tree trunk reflecting the street, soft morning light, small provincial town street in northern Vietnam, 1990, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_left",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  }
+ ]
+}

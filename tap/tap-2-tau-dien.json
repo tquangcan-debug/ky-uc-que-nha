@@ -1,0 +1,271 @@
+{
+ "title": "Hà Nội xưa · Tàu điện leng keng buổi sớm",
+ "era": "Hà Nội, 1985",
+ "accent": "bac",
+ "hook_text": "Ai còn nhớ tiếng chuông này không?",
+ "thumbnail_text": "TÀU ĐIỆN 1985",
+ "music_mood": "sao_truc",
+ "outro_text": "Tập sau: Bác cắt tóc vỉa hè · 19h",
+ "meta": {
+  "youtube_description": "Hà Nội xưa những năm 1980: theo ông nội đi chuyến tàu điện leng keng ra chợ Đồng Xuân. Phố cũ Hà Nội, tập 1. Bạn từng đi tàu điện Hà Nội chưa, kể mình nghe nhé. Hình ảnh được tái hiện bằng AI dựa trên tư liệu và ký ức. #Shorts #HaNoiXua #PhoCuHaNoi",
+  "tags": [
+   "Hà Nội xưa",
+   "tàu điện Hà Nội",
+   "Hà Nội thập niên 80",
+   "Việt Nam xưa",
+   "Việt Nam ngày ấy",
+   "ký ức quê nhà",
+   "chợ Đồng Xuân",
+   "Bờ Hồ",
+   "hoài niệm",
+   "old Hanoi"
+  ],
+  "pinned_comment": "Bạn còn nhớ tiếng chuông tàu điện không? Ngày ấy bạn đi tuyến nào?",
+  "tiktok": "Ai còn nhớ tiếng chuông tàu điện này không? #hanoixua #vietnamxua #hoainiem #kyuc #phocuhanoi",
+  "playlist": "Phố cũ Hà Nội",
+  "publish": "2026-12-01T19:00:00+07:00"
+ },
+ "thumbnail_scene": 3,
+ "scenes": [
+  {
+   "narration": "Ai còn nhớ tiếng chuông này không?",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, close-up of a tram driver's foot pressing a worn brass bell pedal inside an old wooden tram cab, old Hanoi street scene, northern Vietnam, 1985, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "",
+   "on_screen_text": "Hà Nội, 1985",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Leng keng, leng keng, cả Hà Nội thức dậy theo nó.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a red and yellow vintage Hanoi tram rolling along tracks under tall sau trees on a quiet street, old Hanoi street scene, northern Vietnam, 1985, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_right",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Sáng chủ nhật, ông dắt tôi ra bến đầu phố.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, an old grandfather in a grey Mao-style jacket and pith helmet holding the hand of a 9-year-old boy at a tram stop, morning mist, old Hanoi street scene, northern Vietnam, 1985, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_out",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Cuối video, tôi sẽ kể chuyện tấm vé tàu ông giữ mãi.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, bicycles passing by a tram stop on an early misty Hanoi morning, old Hanoi street scene, northern Vietnam, 1985, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_left",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Tàu đến chậm rì.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a crowded vintage tram arriving slowly, people stepping up through the wooden doors, old Hanoi street scene, northern Vietnam, 1985, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Người lớn chen lên, trẻ con được bế qua cửa sổ.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, inside an old tram with long wooden benches along the sides, passengers squeezed together, old Hanoi street scene, northern Vietnam, 1985, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_right",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Ghế gỗ bóng loáng vì bao nhiêu người đã ngồi.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a 9-year-old Vietnamese boy sitting on a polished wooden bench looking out of an open glassless tram window, wind in his hair, old Hanoi street scene, northern Vietnam, 1985, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_out",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Cửa sổ không kính, gió phố lùa vào mát rượi.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, close-up of a worn shiny wooden tram bench, old Hanoi street scene, northern Vietnam, 1985, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_left",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Tàu chạy qua những con phố cây sấu.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, view through a tram window of an old Hanoi street with tall trees, hand-painted shop signs and people in conical hats, old Hanoi street scene, northern Vietnam, 1985, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Biển hiệu viết tay, mái ngói thâm rêu.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, old moss-covered tiled roofs of Hanoi shophouses seen from a moving tram, old Hanoi street scene, northern Vietnam, 1985, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_right",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Có bà bán xôi lên tàu cùng chuyến.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, an old woman street vendor carrying a bamboo basket of steaming sticky rice wrapped in banana leaves boarding a tram, old Hanoi street scene, northern Vietnam, 1985, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_out",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Mùi xôi nóng thơm cả toa.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, steam rising from sticky rice in a bamboo basket inside a tram, old Hanoi street scene, northern Vietnam, 1985, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_left",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Ông mua cho tôi một nắm xôi gói lá.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, grandfather handing a boy a ball of sticky rice wrapped in banana leaf inside a tram, old Hanoi street scene, northern Vietnam, 1985, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Tôi ăn từng hạt, tiếc không dám ăn nhanh.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a boy happily eating sticky rice from a banana leaf, close-up, old Hanoi street scene, northern Vietnam, 1985, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_right",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Người soát vé xé tấm vé mỏng như tờ lịch.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a tram conductor tearing a thin paper ticket from a ticket stub book, old Hanoi street scene, northern Vietnam, 1985, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_out",
+   "sfx": "",
+   "on_screen_text": "Tấm vé",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Ông gấp lại, cất vào túi áo ngực.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, an old man folding a small thin paper tram ticket and putting it in his shirt chest pocket, old Hanoi street scene, northern Vietnam, 1985, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_left",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Tàu vòng qua Bờ Hồ.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a tram passing Hoan Kiem Lake with the Turtle Tower faint in the morning mist, old Hanoi street scene, northern Vietnam, 1985, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Ông chỉ Tháp Rùa, kể chuyện ngày ông còn trẻ.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, grandfather pointing out of the tram window toward the lake, boy listening, old Hanoi street scene, northern Vietnam, 1985, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_right",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Đến chợ Đồng Xuân, ông cháu xuống tàu, hòa vào dòng người.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, busy Dong Xuan market facade with crowds of shoppers and bicycles, old Hanoi street scene, northern Vietnam, 1985, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_out",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, grandfather and boy stepping down from the tram into a crowd near the market, old Hanoi street scene, northern Vietnam, 1985, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_left",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Ông mất đã lâu.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, an old hand holding a yellowed faded tram ticket tucked inside a worn notebook, close-up, old Hanoi street scene, northern Vietnam, 1985, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_in",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Trong cuốn sổ của ông, tôi vẫn thấy tấm vé tàu ngày ấy.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, an old leather notebook open on a wooden table by a window, soft light, old Hanoi street scene, northern Vietnam, 1985, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_right",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Bạn có từng đi tàu điện Hà Nội không?",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, close-up of a worn brass tram bell glinting in morning light, old Hanoi street scene, northern Vietnam, 1985, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "zoom_out",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  },
+  {
+   "narration": "Kể cho Ký Ức Quê Nhà nghe nhé.",
+   "image_prompt": "Photorealistic 35mm film photograph, vertical 9:16, a red and yellow vintage tram fading into morning mist down a tree-lined street, old Hanoi street scene, northern Vietnam, 1985, warm faded Kodak colors, fine film grain, natural candid moment, authentic period details, no modern objects, no text, no logos. Avoid: modern clothing, plastic, smartphone, motorbikes, electric wires, text, watermark, extra fingers.",
+   "motion": "pan_left",
+   "sfx": "",
+   "on_screen_text": "",
+   "ai_clip": false,
+   "motion_prompt": "",
+   "seconds": 4
+  }
+ ]
+}
