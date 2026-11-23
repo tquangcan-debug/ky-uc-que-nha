@@ -118,7 +118,8 @@ def gen_image(prompt, out, provider, mock_idx=None):
             lines = [l.strip() for l in open(ENV("CF_FILE"), encoding="utf-8-sig") if l.strip()]
             acc, tok = lines[0], lines[1]
         model = ENV("CF_IMAGE_MODEL", "@cf/black-forest-labs/flux-2-klein-4b")
-        fields = {"prompt": prompt + STYLE, "width": ENV("CF_W", "768"), "height": ENV("CF_H", "1344")}
+        fields = {"prompt": prompt + STYLE, "width": ENV("CF_W", "768"), "height": ENV("CF_H", "1344"),
+                  "seed": str(random.randint(1, 2**31 - 1))}
         if ENV("CF_STEPS"):
             fields["steps"] = ENV("CF_STEPS")
         if "flux-2" in model:      # FLUX.2 tren Cloudflare nhan multipart/form-data
