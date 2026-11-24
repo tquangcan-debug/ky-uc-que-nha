@@ -1,0 +1,117 @@
+{
+ "title": "Hà Nội xưa · Tàu điện leng keng buổi sớm",
+ "banner": "Bạn thức dậy ở Hà Nội\nhơn 40 năm về trước.",
+ "thumbnail_clip": 3,
+ "thumbnail_text": "TÀU ĐIỆN 1985",
+ "end_question": "Bạn từng đi tàu điện Hà Nội chưa?",
+ "style": "Photorealistic photograph, natural soft morning light, realistic true-to-life colors, slightly faded like an old memory, Hanoi old quarter in 1985, northern Vietnam, tall sau trees, low French colonial yellow houses with green wooden shutters, very few bicycles, no motorbikes, authentic period details, quiet atmosphere, no modern objects, no text, no logos, no close-up faces",
+ "clip_seconds": 5,
+ "no_captions": true,
+ "clips": [
+  {
+   "prompt": "first-person view from a small wooden window of an old Hanoi tube house at dawn, looking down at a quiet street lined with tall sau trees, a vintage red-and-cream Hanoi tram car with wooden window frames passing below on rails, morning mist",
+   "move": "push",
+   "sfx": "chim",
+   "seconds": 4,
+   "voice": "Bạn còn nhớ không, những buổi sáng Hà Nội ngày ấy, mở mắt ra đã nghe tiếng leng keng ngoài phố."
+  },
+  {
+   "prompt": "an old grandfather in a grey Mao-style jacket and green pith helmet and a 8-year-old boy in a white short-sleeve shirt and blue shorts seen from behind walking hand in hand on a quiet sidewalk under tall sau trees, morning mist, Hanoi 1985",
+   "move": "push",
+   "sfx": "buoc_chan",
+   "seconds": 4,
+   "voice": "Sáng chủ nhật, ông nội dắt mình ra bến tàu điện đầu phố. Tay ông ấm lắm, bạn nhỉ."
+  },
+  {
+   "prompt": "close-up of an old man's wrinkled hand holding a small boy's hand, sidewalk and fallen sau leaves blurred behind, soft morning light, no faces",
+   "move": "push",
+   "sfx": "buoc_chan",
+   "seconds": 3
+  },
+  {
+   "prompt": "a vintage red-and-cream Hanoi tram car with wooden window frames rolling slowly along tracks under a canopy of tall sau trees on a quiet Hanoi street, morning mist, a few bicycles far away",
+   "move": "pan_r",
+   "sfx": "chim",
+   "voice": "Chiếc tàu đỏ chậm rãi lăn bánh dưới hàng sấu, cứ leng keng, leng keng mãi."
+  },
+  {
+   "prompt": "close-up of a tram driver's worn sandal pressing a brass bell pedal on the wooden floor of an old tram cab, warm light, no face",
+   "move": "push",
+   "sfx": "",
+   "voice": "Bác lái tàu đạp chuông, cả phố như thức dậy theo nhịp chuông ấy."
+  },
+  {
+   "prompt": "first-person view from inside an old wooden tram looking out an open wooden window at Hoan Kiem lake in morning mist, willow trees, the small Turtle Tower far on the water",
+   "move": "pan_l",
+   "sfx": "chim",
+   "voice": "Mình ngồi cạnh khung cửa gỗ, nhìn Bờ Hồ lùi dần qua làn sương sớm."
+  },
+  {
+   "prompt": "women in conical hats and brown blouses seen from behind climbing into an old tram with bamboo baskets of vegetables and shoulder poles, Hanoi 1985 morning",
+   "move": "pan_r",
+   "sfx": "buoc_chan",
+   "voice": "Người đi chợ chen nhau lên tàu, quang gánh, rổ rá, ai cũng vội mà chẳng ai cáu gắt."
+  },
+  {
+   "prompt": "close-up of an old man's hand carefully putting a small thin paper tram ticket into the breast pocket of a grey jacket, warm light inside a wooden tram, no face",
+   "move": "push",
+   "sfx": "",
+   "voice": "Vé tàu mỏng như tờ giấy, ông cẩn thận cất vào túi áo."
+  },
+  {
+   "prompt": "the old Dong Xuan market facade in Hanoi in 1985 seen from the street, morning, people with bicycles and baskets far away seen from behind",
+   "move": "push",
+   "sfx": "nen_lang_que",
+   "voice": "Đến chợ Đồng Xuân, ông mua cho mình cái bánh rán đường nóng hổi."
+  },
+  {
+   "prompt": "close-up of a small boy's hands holding a warm golden sugar-coated fried rice ball on a piece of banana leaf, market stall blurred behind, steam, no face",
+   "move": "push",
+   "sfx": "nen_lang_que",
+   "seconds": 4
+  },
+  {
+   "prompt": "an old grandfather in a grey Mao-style jacket and green pith helmet and a 8-year-old boy in a white short-sleeve shirt and blue shorts seen from behind sitting on a wooden tram bench, the boy asleep leaning on the grandfather's shoulder, warm late-morning light through wooden windows",
+   "move": "push",
+   "sfx": "",
+   "voice": "Chuyến về, mình ngủ gật trên vai ông lúc nào chẳng biết."
+  },
+  {
+   "prompt": "an empty quiet Hanoi street under sau trees in 1991, old tram rails half removed from the road, overcast soft light, nobody",
+   "move": "pull",
+   "sfx": "chim",
+   "voice": "Rồi một ngày, tàu điện không chạy nữa, đường ray cũng được bóc đi."
+  },
+  {
+   "prompt": "the same Hanoi street under tall sau trees today, busy with motorbikes and modern shop signs blurred, an empty old wooden bench on the sidewalk, soft afternoon light",
+   "move": "pull",
+   "sfx": "nen_lang_que",
+   "voice": "Giờ ông đã đi xa, phố cũng đông hơn nhiều."
+  },
+  {
+   "prompt": "close-up of an old rusty tram rail fragment embedded in a cracked Hanoi sidewalk with fallen yellow sau leaves, golden morning light",
+   "move": "pull",
+   "sfx": "chim",
+   "seconds": 6,
+   "voice": "Nhưng tiếng leng keng buổi sớm ấy, vẫn còn vang mãi trong ký ức, bạn nhỉ."
+  }
+ ],
+ "meta": {
+  "youtube_description": "POV: Bạn thức dậy ở Hà Nội năm 1985, theo ông nội đi chuyến tàu điện leng keng ra chợ Đồng Xuân. Phố cũ Hà Nội, tập 1.\nBạn từng đi tàu điện Hà Nội chưa? Kể mình nghe nhé.\n\nHình ảnh và giọng đọc được tái hiện bằng AI dựa trên tư liệu và ký ức.\nGiọng đọc: ElevenLabs (elevenlabs.io)\n\n#Shorts #HaNoiXua #PhoCuHaNoi #VietNamXua #HoaiNiem",
+  "tags": [
+   "Hà Nội xưa",
+   "tàu điện Hà Nội",
+   "Hà Nội thập niên 80",
+   "POV Việt Nam xưa",
+   "Việt Nam xưa",
+   "ký ức quê nhà",
+   "chợ Đồng Xuân",
+   "Bờ Hồ",
+   "hoài niệm",
+   "old Hanoi"
+  ],
+  "tiktok": "POV: Bạn thức dậy ở Hà Nội năm 1985 #hanoixua #vietnamxua #pov #hoainiem #kyuc",
+  "playlist": "Phố cũ Hà Nội",
+  "publish": "2026-11-26T19:00:00+07:00"
+ }
+}
