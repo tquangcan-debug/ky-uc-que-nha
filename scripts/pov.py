@@ -164,7 +164,7 @@ def main():
         if not os.path.exists(img):
             full = c["prompt"] + ", " + style
             cache = ENV("IMG_CACHE", "")
-            key = os.path.join(cache, hashlib.sha1(full.encode()).hexdigest()[:16] + ".png") if cache else ""
+            key = os.path.join(cache, provider + "-" + hashlib.sha1(full.encode()).hexdigest()[:16] + ".png") if cache else ""
             if key and os.path.exists(key):
                 shutil.copy(key, img)              # hinh da tao o lan chay truoc: khong ton luot
             else:
