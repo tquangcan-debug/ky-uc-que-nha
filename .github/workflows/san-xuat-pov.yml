@@ -37,8 +37,8 @@ jobs:
       X264_PRESET: medium
       HF_HUB_DISABLE_TELEMETRY: "1"
       TTS_VOICE: vi-VN-NamMinhNeural
-      TTS_RATE: "-6%"
-      TTS_PITCH: "-4Hz"
+      TTS_RATE: "-12%"
+      TTS_PITCH: "-6Hz"
       MUSIC_URL: ${{ vars.MUSIC_URL || 'https://incompetech.com/music/royalty-free/mp3-royaltyfree/Evening%20Fall%20-%20Harp.mp3' }}
     steps:
       - uses: actions/checkout@v4
