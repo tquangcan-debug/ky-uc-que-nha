@@ -208,14 +208,16 @@ def tts(text, out, mock=False, accent="bac"):
 
     async def go():
         await edge_tts.Communicate(text, VOICE, rate=RATE, pitch=PITCH).save(out)
-    for attempt in range(6):
+    for attempt in range(10):
         try:
             asyncio.run(go())
             if os.path.getsize(out) > 1000:
                 return
         except Exception as e:
             log("edge-tts loi, thu lai:", e)
-            time.sleep(5)
+        if os.path.exists(out):
+            os.remove(out)                       # file hong (0 byte) khong duoc de lai
+        time.sleep(5 * (attempt + 1))
     raise SystemExit("Khong tao duoc giong doc")
 
 

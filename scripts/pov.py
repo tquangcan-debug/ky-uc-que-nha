@@ -200,7 +200,7 @@ def main():
             continue
         os.makedirs(os.path.join(job, "voice"), exist_ok=True)
         vf_ = os.path.join(job, "voice", f"v_{i:02d}.mp3")
-        if not os.path.exists(vf_):
+        if not os.path.exists(vf_) or os.path.getsize(vf_) < 1000:
             R.tts(c["voice"], vf_, mock=mock)
         st = max(starts[i] + 0.3, nxt)
         ln = R.dur(vf_)
