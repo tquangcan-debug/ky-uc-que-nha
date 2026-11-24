@@ -3,28 +3,29 @@
  "banner": "Bạn thức dậy ở làng quê Bắc Bộ\nhơn 35 năm về trước.",
  "thumbnail_clip": 2,
  "thumbnail_text": "LÀNG QUÊ 1988",
- "end_question": "Nhà bạn ngày xưa gánh nước ở giếng nào?",
+ "end_question": "Bạn còn nhớ giếng làng quê mình không?",
  "style": "Photorealistic photograph, natural soft daylight, realistic true-to-life colors, slightly faded like an old memory, Red River Delta village in northern Vietnam in 1988, authentic period details, lush green, peaceful and quiet atmosphere, no modern objects, no electric wires, no text, no logos, no close-up faces",
  "clips": [
   {
    "prompt": "first-person view looking down at a child's small bare feet on a packed-earth village path at dawn, morning mist, bamboo hedges on both sides, a woman's figure walking ahead seen from behind carrying two buckets on a bamboo shoulder pole",
    "move": "push",
    "sfx": "ga_gay",
-   "voice": "Bạn thức dậy ở làng quê năm ấy, khi trời còn mờ sương.",
-   "seconds": 4
+   "seconds": 4,
+   "voice": "Bạn thức dậy ở làng quê năm ấy, khi trời còn mờ sương."
   },
   {
    "prompt": "wide view of an old round laterite-stone well under a huge banyan tree at the village entrance, mist, a few villagers far away waiting with buckets, seen from behind",
    "move": "push",
    "sfx": "chim",
-   "voice": "Cả xóm chung nhau một cái giếng đá ong đầu làng.",
-   "seconds": 4
+   "seconds": 4,
+   "voice": "Cả xóm chung nhau một cái giếng đá ong đầu làng."
   },
   {
    "prompt": "a child's small hand holding a tin bucket handle next to an old laterite well, morning mist, a black village dog sitting nearby, warm dawn light",
    "move": "pan_r",
    "sfx": "cho_que",
-   "seconds": 4
+   "seconds": 4,
+   "voice": "Hồi đó, mình chỉ mong mau lớn để gánh nước đỡ mẹ."
   },
   {
    "prompt": "first-person view over the rim of a round laterite-stone well looking down at dark still water reflecting the pale sky, a tin bucket on a coir rope descending",
@@ -52,7 +53,8 @@
   {
    "prompt": "village women seen from behind at a distance, wearing conical hats and brown blouses, chatting around the well, bamboo shoulder poles leaning on the banyan tree",
    "move": "pan_r",
-   "sfx": "cho_que"
+   "sfx": "cho_que",
+   "voice": "Giếng làng là nơi cả xóm gặp nhau mỗi sớm mai."
   },
   {
    "prompt": "first-person view walking behind a woman carrying two full buckets on a bamboo shoulder pole along a narrow dyke between green rice paddies at sunrise, seen from behind",
@@ -73,7 +75,8 @@
   {
    "prompt": "a thatched-roof rural house with a yellow earthen wall, smoke rising from the kitchen, a big brown water jar by the door, chickens in the yard, morning sun",
    "move": "pan_l",
-   "sfx": "ga_gay"
+   "sfx": "ga_gay",
+   "voice": "Có những buổi sáng bình yên đến thế, mà ngày ấy ta chẳng biết giữ lấy."
   },
   {
    "prompt": "village children seen from behind at a distance running barefoot down a dirt lane between bamboo hedges, morning sun rays through dust",
@@ -84,15 +87,22 @@
    "prompt": "a small wooden table in a rural courtyard with a clay teapot and two small cups, steam rising, morning sunlight through bamboo",
    "move": "push",
    "sfx": "ga_gay",
-   "voice": "Bây giờ nhà nào cũng có nước máy."
+   "voice": "Bố ngồi pha ấm chè, chờ cả nhà thức dậy."
   },
   {
    "prompt": "close-up of a wooden lid being placed on a large brown ceramic water jar in a rural courtyard, soft morning light, bamboo hedge behind",
    "move": "push",
-   "sfx": "chim"
+   "sfx": "chim",
+   "voice": "Giờ tóc mẹ đã bạc, chum nước cũng chẳng còn."
   },
   {
    "prompt": "the old laterite well under the banyan tree in golden morning light, empty, quiet, mist lifting over the rice fields",
+   "move": "pull",
+   "sfx": "chim",
+   "voice": "Bây giờ nhà nào cũng có nước máy."
+  },
+  {
+   "prompt": "the same old laterite well today, abandoned and overgrown with moss and weeds, covered by a cracked concrete slab, the banyan tree still standing, modern brick houses in the soft background, quiet overcast afternoon light",
    "move": "pull",
    "sfx": "chim",
    "voice": "Nhưng tiếng gàu nước sớm mai ấy, chỉ còn trong ký ức."
