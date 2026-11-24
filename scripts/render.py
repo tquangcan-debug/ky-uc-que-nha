@@ -147,7 +147,10 @@ def gen_image(prompt, out, provider, mock_idx=None):
                     open(out, "wb").write(img)
                     return
             except urllib.error.HTTPError as e:
-                log("cloudflare loi", e.code, e.read()[:300])
+                body = e.read()[:300]
+                log("cloudflare loi", e.code, body)
+                if b"4006" in body or b"daily free allocation" in body:
+                    raise SystemExit("HET_HAN_MUC_CLOUDFLARE: het luot mien phi trong ngay")
                 if e.code in (400, 401, 403):
                     raise SystemExit(f"Cloudflare tu choi ({e.code}), kiem tra token/model")
             except Exception as e:

@@ -8,6 +8,7 @@ Dong cuoi stdout: JSON {ok, youtube_video, tiktok_video, thumbnail, duration, cl
 Bien moi truong dung chung voi render.py (IMAGE_PROVIDER, CF_*, FONT_FILE, FONT_NAME, MUSIC_DIR, SFX_DIR).
 Them: CLIP_SECONDS (5), DEPTH_MODEL (depth-anything/Depth-Anything-V2-Small-hf), MOTION (do manh chuyen dong, 1.0).
 """
+import hashlib, shutil
 import json, os, sys, subprocess, math, random
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import render as R
@@ -161,7 +162,16 @@ def main():
     for i, c in enumerate(clips):
         img = os.path.join(job, "images", f"clip_{i:02d}.png")
         if not os.path.exists(img):
-            R.gen_image(c["prompt"] + ", " + style, img, provider, mock_idx=i)
+            full = c["prompt"] + ", " + style
+            cache = ENV("IMG_CACHE", "")
+            key = os.path.join(cache, hashlib.sha1(full.encode()).hexdigest()[:16] + ".png") if cache else ""
+            if key and os.path.exists(key):
+                shutil.copy(key, img)              # hinh da tao o lan chay truoc: khong ton luot
+            else:
+                R.gen_image(full, img, provider, mock_idx=i)
+                if key and not mock:
+                    os.makedirs(cache, exist_ok=True)
+                    shutil.copy(img, key)
 
     # 2) clip chuyen dong
     parts = []

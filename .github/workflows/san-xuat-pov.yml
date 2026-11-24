@@ -36,6 +36,7 @@ jobs:
       SFX_DIR: ${{ github.workspace }}/sfx
       X264_PRESET: medium
       HF_HUB_DISABLE_TELEMETRY: "1"
+      IMG_CACHE: ${{ github.workspace }}/img-cache
       TTS_VOICE: vi-VN-NamMinhNeural
       TTS_RATE: "-12%"
       TTS_PITCH: "-6Hz"
@@ -48,7 +49,7 @@ jobs:
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
           pip install -q torch --index-url https://download.pytorch.org/whl/cpu
           pip install -q edge-tts transformers opencv-python-headless pillow numpy google-api-python-client google-auth google-auth-oauthlib
-          mkdir -p fonts music sfx
+          mkdir -p fonts music sfx img-cache
           curl -sL -o fonts/BeVietnamPro-SemiBold.ttf https://github.com/google/fonts/raw/main/ofl/bevietnampro/BeVietnamPro-SemiBold.ttf
           curl -fsL -o music/nhac.mp3 "$MUSIC_URL" || echo "khong tai duoc nhac"
           # Am thanh that (BigSoundBank, mien phi ban quyen)
@@ -61,11 +62,25 @@ jobs:
           get nen_lang_que 0097
           ls -la sfx
 
+      - name: Lay hinh da tao o lan truoc
+        uses: actions/cache/restore@v4
+        with:
+          path: img-cache
+          key: img-${{ github.run_id }}
+          restore-keys: img-
+
       - name: Dung video POV
         run: |
           mkdir -p jobs/tap && cp "tap-pov/${{ github.event.inputs.tap }}"*.json jobs/tap/script.json
           python3 scripts/pov.py jobs/tap | tee jobs/render.log
           tail -1 jobs/render.log | python3 -c "import json,sys; d=json.load(sys.stdin); assert d['ok'], d"
+
+      - name: Cat hinh cho lan sau
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: img-cache
+          key: img-${{ github.run_id }}
 
       - name: Luu ban dung (tai ve trong 7 ngay)
         if: always()
