@@ -142,11 +142,6 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     open(path, "w", encoding="utf-8").write("".join(L))
 
 
-def R_len(c):
-    """thoi gian hien chu cho loi ke dai hon clip (uoc 2.6 tu/giay)"""
-    return len((c.get("voice") or "").split()) / 2.6
-
-
 # ------------------------------------------------------------ chinh
 def main():
     job = sys.argv[1]
@@ -187,11 +182,30 @@ def main():
     n = len(clips)
     total = round(sum(durs) + END, 3)
 
+    # 2b) loi ke: tao truoc de biet do dai, xep noi tiep khong chong nhau
+    vt = {}
+    nxt = 0.0
+    for i, c in enumerate(clips):
+        if not c.get("voice"):
+            continue
+        os.makedirs(os.path.join(job, "voice"), exist_ok=True)
+        vf_ = os.path.join(job, "voice", f"v_{i:02d}.mp3")
+        if not os.path.exists(vf_):
+            R.tts(c["voice"], vf_, mock=mock)
+        st = max(starts[i] + 0.3, nxt)
+        ln = R.dur(vf_)
+        vt[i] = (st, ln, vf_)
+        nxt = st + ln + 0.35
+
     # 3) chu
     cues = []
     for i, c in enumerate(clips):
-        a = starts[i] + 0.25
-        cues.append((a, a + max(durs[i] - 0.35, R_len(c)), c.get("voice") or c.get("caption", "")))
+        if i in vt:
+            a, ln, _ = vt[i]
+            cues.append((a - 0.1, a + ln + 0.25, c["voice"]))
+        elif c.get("caption"):
+            a = starts[i] + 0.25
+            cues.append((a, a + durs[i] - 0.35, c["caption"]))
     ass = os.path.join(job, "subs.ass")
     write_ass(ass, sc.get("banner", ""), [x for x in cues if x[2]], sc.get("end_question", ""), total)
 
@@ -242,17 +256,13 @@ def main():
         a_fc.append(f"anullsrc=r=48000:cl=stereo,atrim=0:{total:.3f}[sfx]")
     tk_a, yt_a = os.path.join(job, "tk.m4a"), os.path.join(job, "yt.m4a")
     # loi ke ngan (truong "voice" cua clip): giong tram am, tieng dong tu nho lai khi co loi
-    vo = [(i, c["voice"]) for i, c in enumerate(clips) if c.get("voice")]
+    vo = sorted(vt.items())
     if vo:
-        os.makedirs(os.path.join(job, "voice"), exist_ok=True)
         v_lab = []
-        for k, (i, text) in enumerate(vo):
-            vf_ = os.path.join(job, "voice", f"v_{i:02d}.mp3")
-            if not os.path.exists(vf_):
-                R.tts(text, vf_, mock=mock)
+        for k, (i, (st, ln, vf_)) in enumerate(vo):
             a_in += ["-i", vf_]
             a_fc.append(f"[{idx}:a]aresample=48000,aformat=channel_layouts=stereo,{R.VOICE_FX}"
-                        f"volume={ENV('VOICE_VOL', '1.0')},adelay={int((starts[i] + 0.3) * 1000)}:all=1[v{k}]")
+                        f"volume={ENV('VOICE_VOL', '1.0')},adelay={int(st * 1000)}:all=1[v{k}]")
             v_lab.append(f"[v{k}]")
             idx += 1
         a_fc.append(f"{''.join(v_lab)}amix=inputs={len(v_lab)}:normalize=0:duration=longest,"
