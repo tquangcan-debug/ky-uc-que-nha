@@ -77,8 +77,8 @@ def render_clip(img_path, out, seconds, move, mock=False):
     seed = random.random() * 10
     p_ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "bgr24",
                              "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
-                             "-vf", "noise=alls=6:allf=t,vignette=PI/5,eq=saturation=0.9:gamma=1.02,"
-                                    "colorbalance=rs=0.03:bs=-0.04,format=yuv420p",
+                             "-vf", ENV("LOOK", "noise=alls=3:allf=t,vignette=PI/7,eq=saturation=1.02:contrast=1.03,"
+                                    "colorbalance=rs=0.02:bs=-0.02") + ",format=yuv420p",
                              "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", out], stdin=subprocess.PIPE)
     for i in range(n):
         t = ease(i / max(n - 1, 1))
@@ -123,8 +123,8 @@ WrapStyle: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Banner,{fn},58,&H00FFFFFF,&H00FFFFFF,&H96000000,&H96000000,1,0,0,0,100,100,0,0,3,18,0,8,60,60,190,1
-Style: Cap,{fn},84,&H00FFFFFF,&H00FFFFFF,&H00101010,&H78000000,1,0,0,0,100,100,0,0,1,6,3,2,70,70,{int(ENV("CAP_MARGIN", "560"))},1
+Style: Banner,{fn},58,&H0040E6FF,&H0040E6FF,&H00000000,&H64000000,1,0,0,0,100,100,0,0,1,4,2,8,40,40,{int(ENV('BANNER_MARGIN', '260'))},1
+Style: Cap,{fn},58,&H0040E6FF,&H0040E6FF,&H00000000,&H64000000,1,0,0,0,100,100,0,0,1,4,2,2,50,50,{int(ENV("CAP_MARGIN", "430"))},1
 Style: End,{fn},78,&H00B8F2FF,&H00FFFFFF,&H00101010,&H78000000,1,0,0,0,100,100,0,0,1,6,3,5,80,80,0,1
 
 [Events]
@@ -140,6 +140,11 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         L.append(f"Dialogue: 2,{R.ass_time(total - END + 0.3)},{R.ass_time(total)},End,,0,0,0,,"
                  f"{{\\fad(300,0)}}{R.ass_escape(end_q)}\\N\\N{{\\fs52\\c&HFFFFFF&}}{R.ass_escape(R.CHANNEL)} · 19h mỗi ngày\n")
     open(path, "w", encoding="utf-8").write("".join(L))
+
+
+def R_len(c):
+    """thoi gian hien chu cho loi ke dai hon clip (uoc 2.6 tu/giay)"""
+    return len((c.get("voice") or "").split()) / 2.6
 
 
 # ------------------------------------------------------------ chinh
@@ -186,7 +191,7 @@ def main():
     cues = []
     for i, c in enumerate(clips):
         a = starts[i] + 0.25
-        cues.append((a, a + durs[i] - 0.35, c.get("caption", "")))
+        cues.append((a, a + max(durs[i] - 0.35, R_len(c)), c.get("voice") or c.get("caption", "")))
     ass = os.path.join(job, "subs.ass")
     write_ass(ass, sc.get("banner", ""), [x for x in cues if x[2]], sc.get("end_question", ""), total)
 
@@ -236,12 +241,33 @@ def main():
     else:
         a_fc.append(f"anullsrc=r=48000:cl=stereo,atrim=0:{total:.3f}[sfx]")
     tk_a, yt_a = os.path.join(job, "tk.m4a"), os.path.join(job, "yt.m4a")
-    R.run(["ffmpeg", "-y", *a_in, "-filter_complex", ";".join(a_fc) + ";[sfx]alimiter=limit=0.95[o]",
+    # loi ke ngan (truong "voice" cua clip): giong tram am, tieng dong tu nho lai khi co loi
+    vo = [(i, c["voice"]) for i, c in enumerate(clips) if c.get("voice")]
+    if vo:
+        os.makedirs(os.path.join(job, "voice"), exist_ok=True)
+        v_lab = []
+        for k, (i, text) in enumerate(vo):
+            vf_ = os.path.join(job, "voice", f"v_{i:02d}.mp3")
+            if not os.path.exists(vf_):
+                R.tts(text, vf_, mock=mock)
+            a_in += ["-i", vf_]
+            a_fc.append(f"[{idx}:a]aresample=48000,aformat=channel_layouts=stereo,{R.VOICE_FX}"
+                        f"volume={ENV('VOICE_VOL', '1.0')},adelay={int((starts[i] + 0.3) * 1000)}:all=1[v{k}]")
+            v_lab.append(f"[v{k}]")
+            idx += 1
+        a_fc.append(f"{''.join(v_lab)}amix=inputs={len(v_lab)}:normalize=0:duration=longest,"
+                    f"apad=whole_dur={total:.3f},atrim=0:{total:.3f},asplit=2[vo][vsc]")
+        a_fc.append("[sfx][vsc]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=400[sfxd]")
+        a_fc.append("[sfxd][vo]amix=inputs=2:normalize=0:duration=first[mixv]")
+        last = "[mixv]"
+    else:
+        last = "[sfx]"
+    R.run(["ffmpeg", "-y", *a_in, "-filter_complex", ";".join(a_fc) + f";{last}alimiter=limit=0.95[o]",
            "-map", "[o]", "-c:a", "aac", "-b:a", "192k", tk_a])
     music = R.pick_file(R.MUSIC_DIR, sc.get("music_mood", ""))
     if music:
         R.run(["ffmpeg", "-y", "-i", tk_a, "-stream_loop", "-1", "-i", music, "-filter_complex",
-               f"[1:a]aresample=48000,aformat=channel_layouts=stereo,atrim=0:{total:.3f},volume={ENV('MUSIC_VOL', '0.32')},"
+               f"[1:a]aresample=48000,aformat=channel_layouts=stereo,atrim=0:{total:.3f},volume={ENV('MUSIC_VOL', '0.22' if vo else '0.32')},"
                f"afade=t=in:d=1.5,afade=t=out:st={total - 2.5:.3f}:d=2.5[m];"
                f"[0:a][m]amix=inputs=2:normalize=0:duration=first,alimiter=limit=0.95[o]",
                "-map", "[o]", "-t", f"{total:.3f}", "-c:a", "aac", "-b:a", "192k", yt_a])

@@ -36,6 +36,9 @@ jobs:
       SFX_DIR: ${{ github.workspace }}/sfx
       X264_PRESET: medium
       HF_HUB_DISABLE_TELEMETRY: "1"
+      TTS_VOICE: vi-VN-NamMinhNeural
+      TTS_RATE: "-6%"
+      TTS_PITCH: "-4Hz"
       MUSIC_URL: ${{ vars.MUSIC_URL || 'https://incompetech.com/music/royalty-free/mp3-royaltyfree/Evening%20Fall%20-%20Harp.mp3' }}
     steps:
       - uses: actions/checkout@v4
@@ -44,7 +47,7 @@ jobs:
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
           pip install -q torch --index-url https://download.pytorch.org/whl/cpu
-          pip install -q transformers opencv-python-headless pillow numpy google-api-python-client google-auth google-auth-oauthlib
+          pip install -q edge-tts transformers opencv-python-headless pillow numpy google-api-python-client google-auth google-auth-oauthlib
           mkdir -p fonts music sfx
           curl -sL -o fonts/BeVietnamPro-SemiBold.ttf https://github.com/google/fonts/raw/main/ofl/bevietnampro/BeVietnamPro-SemiBold.ttf
           curl -fsL -o music/nhac.mp3 "$MUSIC_URL" || echo "khong tai duoc nhac"

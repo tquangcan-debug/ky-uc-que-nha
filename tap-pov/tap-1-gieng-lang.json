@@ -1,110 +1,101 @@
 {
- "title": "POV: Bạn là đứa trẻ làng quê năm 1988 · Giếng làng buổi sớm",
- "banner": "POV: Bạn là đứa trẻ làng quê năm 1988\n5 giờ sáng, theo mẹ ra giếng làng",
+ "title": "Bạn thức dậy ở làng quê năm 1988 · Giếng làng buổi sớm",
+ "banner": "Bạn thức dậy ở làng quê Bắc Bộ\nhơn 35 năm về trước.",
  "thumbnail_clip": 2,
- "thumbnail_text": "GIẾNG LÀNG 1988",
+ "thumbnail_text": "LÀNG QUÊ 1988",
  "end_question": "Nhà bạn ngày xưa gánh nước ở giếng nào?",
- "style": "Photorealistic 35mm film photograph, first-person point of view, Red River Delta village in northern Vietnam, summer 1988, soft dawn light, warm faded Kodak Gold colors, fine film grain, authentic period details, no modern objects, no electric wires, no text, no logos",
+ "style": "Photorealistic photograph, natural soft daylight, realistic true-to-life colors, slightly faded like an old memory, Red River Delta village in northern Vietnam in 1988, authentic period details, lush green, peaceful and quiet atmosphere, no modern objects, no electric wires, no text, no logos, no close-up faces",
  "clips": [
   {
    "prompt": "first-person view looking down at a child's small bare feet on a packed-earth village path at dawn, morning mist, bamboo hedges on both sides, a woman's figure walking ahead seen from behind carrying two buckets on a bamboo shoulder pole",
-   "caption": "Trời còn mờ sương",
    "move": "push",
    "sfx": "ga_gay",
-   "seconds": 3.5
+   "voice": "Bạn thức dậy ở làng quê năm ấy, khi trời còn mờ sương.",
+   "seconds": 4
   },
   {
    "prompt": "wide view of an old round laterite-stone well under a huge banyan tree at the village entrance, mist, a few villagers far away waiting with buckets, seen from behind",
-   "caption": "Giếng đá ong đầu làng",
    "move": "push",
    "sfx": "chim",
-   "seconds": 3.5
+   "voice": "Cả xóm chung nhau một cái giếng đá ong đầu làng.",
+   "seconds": 4
   },
   {
    "prompt": "a child's small hand holding a tin bucket handle next to an old laterite well, morning mist, a black village dog sitting nearby, warm dawn light",
-   "caption": "Con cũng xách một gàu nhỏ",
    "move": "pan_r",
    "sfx": "cho_que",
-   "seconds": 3.5
+   "seconds": 4
   },
   {
    "prompt": "first-person view over the rim of a round laterite-stone well looking down at dark still water reflecting the pale sky, a tin bucket on a coir rope descending",
-   "caption": "Gàu tôn thả xuống",
    "move": "down",
    "sfx": "nuoc",
-   "seconds": 3.5
+   "seconds": 4
   },
   {
    "prompt": "close-up of a woman's weathered hands pulling a wet coir rope hand over hand at a stone well, water dripping, no face visible",
-   "caption": "Tay mẹ kéo dây",
    "move": "up",
-   "sfx": "nuoc"
+   "sfx": "nuoc",
+   "voice": "Mẹ kéo từng gàu nước, đôi tay chai sạn chẳng một lời than."
   },
   {
    "prompt": "close-up of clear well water pouring from a tin bucket into a large brown ceramic jar, splashes catching first sunlight",
-   "caption": "Nước mát lạnh",
    "move": "push",
    "sfx": "nuoc"
   },
   {
    "prompt": "first-person view of a child's small hands holding a coconut-shell ladle full of water near a well, rice fields softly blurred behind",
-   "caption": "Uống một ngụm ở gáo dừa",
    "move": "push",
-   "sfx": "nuoc"
+   "sfx": "nuoc",
+   "voice": "Ngụm nước giếng mát lạnh ấy, cả đời này chẳng nơi nào có được."
   },
   {
    "prompt": "village women seen from behind at a distance, wearing conical hats and brown blouses, chatting around the well, bamboo shoulder poles leaning on the banyan tree",
-   "caption": "Các bà, các cô nói chuyện rôm rả",
    "move": "pan_r",
    "sfx": "cho_que"
   },
   {
    "prompt": "first-person view walking behind a woman carrying two full buckets on a bamboo shoulder pole along a narrow dyke between green rice paddies at sunrise, seen from behind",
-   "caption": "Theo mẹ gánh nước về",
    "move": "push",
-   "sfx": "buoc_chan"
+   "sfx": "buoc_chan",
+   "voice": "Con lon ton theo mẹ, chân trần trên bờ ruộng còn ướt sương."
   },
   {
    "prompt": "ducks swimming in a village pond beside bamboo, a stone washing step at the edge, morning mist over water, thatched roofs in the distance",
-   "caption": "Ao làng còn ngủ",
    "move": "pan_l",
    "sfx": "chim"
   },
   {
    "prompt": "a water buffalo walking slowly along a muddy rice paddy dyke at sunrise, a boy far away seen from behind holding a rope, mist over green fields",
-   "caption": "Trâu cũng ra đồng",
    "move": "pan_r",
    "sfx": "chim"
   },
   {
    "prompt": "a thatched-roof rural house with a yellow earthen wall, smoke rising from the kitchen, a big brown water jar by the door, chickens in the yard, morning sun",
-   "caption": "Khói bếp đã lên",
    "move": "pan_l",
    "sfx": "ga_gay"
   },
   {
    "prompt": "village children seen from behind at a distance running barefoot down a dirt lane between bamboo hedges, morning sun rays through dust",
-   "caption": "Lũ trẻ í ới gọi nhau",
    "move": "push",
    "sfx": "buoc_chan"
   },
   {
    "prompt": "a small wooden table in a rural courtyard with a clay teapot and two small cups, steam rising, morning sunlight through bamboo",
-   "caption": "Bố pha ấm chè sớm",
    "move": "push",
-   "sfx": "ga_gay"
+   "sfx": "ga_gay",
+   "voice": "Bây giờ nhà nào cũng có nước máy."
   },
   {
    "prompt": "close-up of a wooden lid being placed on a large brown ceramic water jar in a rural courtyard, soft morning light, bamboo hedge behind",
-   "caption": "Đầy chum, mẹ mới nghỉ tay",
    "move": "push",
    "sfx": "chim"
   },
   {
    "prompt": "the old laterite well under the banyan tree in golden morning light, empty, quiet, mist lifting over the rice fields",
-   "caption": "Giếng làng ngày ấy",
    "move": "pull",
-   "sfx": "chim"
+   "sfx": "chim",
+   "voice": "Nhưng tiếng gàu nước sớm mai ấy, chỉ còn trong ký ức."
   }
  ],
  "meta": {
