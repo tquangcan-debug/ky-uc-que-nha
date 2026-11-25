@@ -1,0 +1,111 @@
+{
+ "title": "Nghề xưa Việt Nam · Bác cắt tóc vỉa hè",
+ "banner": "Bạn thức dậy ở một thị xã miền Bắc\nhơn 35 năm về trước.",
+ "thumbnail_clip": 3,
+ "thumbnail_text": "CẮT TÓC 1990",
+ "end_question": "Bạn còn nhớ bác thợ cắt tóc đầu ngõ nhà mình không?",
+ "style": "Photorealistic photograph, natural soft summer morning light, realistic true-to-life colors, slightly faded like an old memory, a small provincial town street in northern Vietnam in 1990, old yellow two-storey houses, a big old flame tree on the sidewalk, bicycles, authentic period details, peaceful atmosphere, no modern objects, no motorbikes, no text, no logos, no close-up faces",
+ "clip_seconds": 5,
+ "no_captions": true,
+ "clips": [
+  {
+   "prompt": "a small round mirror hanging on the trunk of a big old flame tree, a wooden stool and a small wooden toolbox on the sidewalk, early summer morning, red flame tree flowers fallen on the pavement, nobody yet",
+   "move": "push",
+   "sfx": "chim",
+   "voice": "Bạn còn nhớ không, cái gương con treo trên gốc phượng, chiếc ghế gỗ đẩu đặt ngay vỉa hè đầu phố.",
+   "seconds": 4
+  },
+  {
+   "prompt": "an old barber in a white shirt and khaki trousers seen from behind opening a small wooden toolbox on the sidewalk under the flame tree, scissors, combs and a hand clipper inside, morning light",
+   "move": "pan_r",
+   "sfx": "chim",
+   "voice": "Sáng nào bác thợ cũng mở hộp đồ nghề từ sớm, kéo, lược, tông đơ xếp ngay ngắn.",
+   "seconds": 4
+  },
+  {
+   "prompt": "a mother in a conical hat seen from behind holding the hand of a 9-year-old boy in a faded blue short-sleeve shirt, walking along the sidewalk toward the flame tree and the small mirror, summer morning",
+   "move": "push",
+   "sfx": "buoc_chan",
+   "voice": "Hè nào mẹ cũng dắt mình ra đây, cắt đầu cua cho mát, bạn nhỉ."
+  },
+  {
+   "prompt": "a 9-year-old boy in a faded blue short-sleeve shirt seen from behind sitting on the wooden stool under the flame tree, a white cloth draped over his shoulders fastened with a wooden clothes peg at the nape of his neck",
+   "move": "push",
+   "sfx": "chim",
+   "voice": "Bác quàng tấm vải trắng, cài cái kẹp phơi quần áo sau gáy, mình ngồi im thin thít."
+  },
+  {
+   "prompt": "close-up of an old man's hands using an old metal hand clipper on the back of a boy's head, short black hair falling on a white cloth, no face",
+   "move": "push",
+   "sfx": "",
+   "voice": "Cái tông đơ tay kêu lách cách, có lúc kẹp tóc đau điếng, bác lại cười khà khà."
+  },
+  {
+   "prompt": "a few old men seen from behind sitting on low stools on the sidewalk under the flame tree reading newspapers and drinking tea from small cups, bicycles parked nearby",
+   "move": "pan_l",
+   "sfx": "chim",
+   "voice": "Mấy ông trong phố ngồi chờ, đọc báo, nhấp chén chè, bàn chuyện rôm rả."
+  },
+  {
+   "prompt": "close-up of an old barber's hand lathering soap foam with a shaving brush on the back of a boy's neck, then a straight razor, gentle, no face",
+   "move": "push",
+   "sfx": "",
+   "voice": "Bác quết xà phòng, cạo gáy nhẹ tay như cạo cho chính con mình."
+  },
+  {
+   "prompt": "an old barber in a white shirt and khaki trousers seen from behind holding a small hand mirror behind the head of a 9-year-old boy in a faded blue short-sleeve shirt so the boy can see the back of his new short haircut in the round mirror on the tree",
+   "move": "push",
+   "sfx": "",
+   "voice": "Rồi bác giơ cái gương con ra sau gáy, hỏi thấy chưa, đẹp trai chưa."
+  },
+  {
+   "prompt": "close-up of a soft brush dusting baby powder and cut hair off a boy's neck, white cloth, warm morning light, no face",
+   "move": "push",
+   "sfx": "",
+   "voice": "Chổi lông phủi tóc, phấn rôm thơm thơm, thế là xong một cái đầu mùa hè."
+  },
+  {
+   "prompt": "close-up of a woman's hand handing a few old Vietnamese paper banknotes to an old man's hand, the old man's hand gently waving them back, sidewalk background",
+   "move": "push",
+   "sfx": "nen_lang_que",
+   "voice": "Mẹ trả tiền, bác cứ xua tay bớt cho, người trong phố ai cũng như người nhà."
+  },
+  {
+   "prompt": "a 9-year-old boy in a faded blue short-sleeve shirt seen from behind running happily down the sidewalk with his new short haircut, red flame tree flowers on the ground, the mother walking behind",
+   "move": "push",
+   "sfx": "buoc_chan",
+   "seconds": 4
+  },
+  {
+   "prompt": "the same street today, busy with motorbikes and modern shops, the old flame tree still standing, a modern hair salon sign blurred, no mirror on the tree, soft afternoon light",
+   "move": "pull",
+   "sfx": "nen_lang_que",
+   "voice": "Giờ phố đã đông, tiệm tóc nào cũng máy lạnh, gương to."
+  },
+  {
+   "prompt": "the trunk of the old flame tree today, an old rusty nail where the mirror used to hang, a few red flowers on the ground, golden light",
+   "move": "pull",
+   "sfx": "chim",
+   "voice": "Nhưng câu bác bảo, đầu tóc gọn gàng thì làm gì cũng thẳng thắn, mình vẫn nhớ mãi, bạn nhỉ.",
+   "seconds": 6
+  }
+ ],
+ "meta": {
+  "youtube_description": "POV: Bạn thức dậy ở một thị xã miền Bắc năm 1990, mẹ dắt ra gốc phượng đầu phố cắt đầu cua mùa hè. Nghề xưa, tập 1.\nBạn còn nhớ bác thợ cắt tóc đầu ngõ nhà mình không? Kể mình nghe nhé.\n\nHình ảnh và giọng đọc được tái hiện bằng AI dựa trên tư liệu và ký ức.\nGiọng đọc: ElevenLabs (elevenlabs.io)\n\n#Shorts #NgheXua #VietNamXua #HoaiNiem #KyUcQueNha",
+  "tags": [
+   "nghề xưa",
+   "cắt tóc vỉa hè",
+   "thợ cắt tóc xưa",
+   "Việt Nam thập niên 90",
+   "POV Việt Nam xưa",
+   "Việt Nam xưa",
+   "ký ức quê nhà",
+   "tuổi thơ 8x 9x",
+   "hoài niệm",
+   "old Vietnam"
+  ],
+  "tiktok": "POV: Bạn thức dậy ở thị xã miền Bắc năm 1990 #nghexua #vietnamxua #pov #hoainiem #kyuc",
+  "playlist": "Nghề xưa",
+  "publish": "2026-11-26T12:00:00+07:00"
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "title": "Thời bao cấp · Sổ gạo và tem phiếu ngày ấy",
+ "banner": "Bạn thức dậy ở khu tập thể Hà Nội\nhơn 40 năm về trước.",
+ "thumbnail_clip": 4,
+ "thumbnail_text": "TEM PHIẾU 1984",
+ "end_question": "Nhà bạn còn giữ tem phiếu hay sổ gạo ngày xưa không?",
+ "style": "Photorealistic photograph, natural soft light, realistic true-to-life colors, slightly faded like an old memory, a Hanoi five-storey collective housing block (khu tập thể) in 1984, northern Vietnam, subsidy era, authentic period details, bicycles, no motorbikes, no modern objects, no text, no logos, no close-up faces",
+ "clip_seconds": 5,
+ "no_captions": true,
+ "clips": [
+  {
+   "prompt": "close-up of an old rice ration book and small printed paper ration coupons on a worn wooden table, soft window light",
+   "move": "push",
+   "sfx": "chim",
+   "voice": "Bạn còn nhớ không, ngày ấy mất một tờ tem phiếu này là cả nhà lo cuống lên.",
+   "seconds": 4
+  },
+  {
+   "prompt": "first-person view inside a tiny room of an old Hanoi collective apartment, a wooden bed, a small cupboard, a thermos and a bicycle hanging on the wall, morning light through a small window",
+   "move": "pan_r",
+   "sfx": "chim",
+   "voice": "Nhà mình ở khu tập thể, căn phòng chỉ hơn chục mét vuông mà đủ cả một gia đình.",
+   "seconds": 4
+  },
+  {
+   "prompt": "a mother in a white blouse and dark trousers with her hair tied back seen from behind taking a small rusty tin box from the bottom of a wooden cupboard",
+   "move": "push",
+   "sfx": "",
+   "voice": "Mẹ cất tem phiếu trong cái hộp sắt, giấu tận đáy tủ, như giữ của quý vậy."
+  },
+  {
+   "prompt": "a mother in a white blouse and dark trousers with her hair tied back seen from behind riding an old Thong Nhat bicycle with a 8-year-old girl in a faded floral shirt sitting on the rear rack, along a quiet street lined with collective housing blocks, morning",
+   "move": "push",
+   "sfx": "buoc_chan",
+   "voice": "Rồi mẹ chở mình ra cửa hàng mậu dịch đầu phố."
+  },
+  {
+   "prompt": "a long queue of people seen from behind outside a small state-run shop in 1984 Hanoi, a wooden board with chalk writing beside the door, bricks and woven baskets placed on the ground to hold places in line",
+   "move": "pan_r",
+   "sfx": "nen_lang_que",
+   "voice": "Người ta xếp hàng dài, có nhà còn đặt viên gạch, cái làn để giữ chỗ từ sớm."
+  },
+  {
+   "prompt": "a 8-year-old girl in a faded floral shirt seen from behind standing still in a long queue holding a woven basket, adults around her, morning light",
+   "move": "push",
+   "sfx": "nen_lang_que",
+   "voice": "Có hôm mẹ bảo mình đứng giữ chỗ, mình đứng im re, sợ ai chen mất lượt, bạn nhỉ."
+  },
+  {
+   "prompt": "close-up of a shop clerk's hands cutting a ration coupon with scissors and weighing rice on an old metal scale, no face, state shop counter",
+   "move": "push",
+   "sfx": "",
+   "voice": "Đến lượt, cô bán hàng cắt tem, cân gạo, đong dầu, ghi vào sổ cẩn thận từng dòng."
+  },
+  {
+   "prompt": "a mother in a white blouse and dark trousers with her hair tied back seen from behind slowly pedalling an old bicycle with a sack of rice tied on the rear rack and a 8-year-old girl in a faded floral shirt walking beside, quiet street, late morning",
+   "move": "push",
+   "sfx": "buoc_chan",
+   "voice": "Hai mẹ con chở gạo về, bao gạo buộc chặt sau xe, mẹ đạp chậm từng vòng."
+  },
+  {
+   "prompt": "a simple family meal on a mat on the floor of a small collective apartment: rice, boiled morning glory, a small bowl of soup, chopsticks, warm light, hands only",
+   "move": "push",
+   "sfx": "",
+   "voice": "Bữa cơm đạm bạc thôi, nhưng nhà này có bát canh lại mang sang nhà kia."
+  },
+  {
+   "prompt": "evening on the long open corridor of an old collective housing block, neighbours seen from behind sitting on low stools fanning themselves, children playing, warm dim light",
+   "move": "pan_l",
+   "sfx": "nen_lang_que",
+   "voice": "Tối đến, cả dãy nhà ra hành lang hóng mát, thiếu thốn mà chẳng ai thấy cô đơn."
+  },
+  {
+   "prompt": "the same collective housing block today, old and weathered, cluttered with modern air conditioners, tall modern buildings behind, soft afternoon light",
+   "move": "pull",
+   "sfx": "nen_lang_que",
+   "voice": "Giờ khu tập thể đã cũ, nhà ai cũng đủ đầy."
+  },
+  {
+   "prompt": "close-up of an elderly woman's wrinkled hands holding an old faded rice ration book today, soft window light, no face",
+   "move": "pull",
+   "sfx": "",
+   "voice": "Nhưng mẹ vẫn giữ cuốn sổ gạo ấy, bảo để nhớ những ngày cả nhà có nhau, bạn nhỉ.",
+   "seconds": 6
+  }
+ ],
+ "meta": {
+  "youtube_description": "POV: Bạn thức dậy ở khu tập thể Hà Nội năm 1984, theo mẹ cầm tem phiếu ra cửa hàng mậu dịch mua gạo. Thời bao cấp, tập 1.\nNhà bạn còn giữ tem phiếu hay sổ gạo ngày xưa không? Kể mình nghe nhé.\n\nHình ảnh và giọng đọc được tái hiện bằng AI dựa trên tư liệu và ký ức.\nGiọng đọc: ElevenLabs (elevenlabs.io)\n\n#Shorts #BaoCap #VietNamXua #HoaiNiem #KyUcQueNha",
+  "tags": [
+   "thời bao cấp",
+   "tem phiếu",
+   "sổ gạo",
+   "khu tập thể Hà Nội",
+   "Việt Nam thập niên 80",
+   "POV Việt Nam xưa",
+   "Việt Nam xưa",
+   "ký ức quê nhà",
+   "hoài niệm",
+   "old Hanoi"
+  ],
+  "tiktok": "POV: Bạn thức dậy ở khu tập thể Hà Nội năm 1984 #baocap #vietnamxua #pov #hoainiem #kyuc",
+  "playlist": "Thời bao cấp",
+  "publish": "2026-11-26T19:00:00+07:00"
+ }
+}
