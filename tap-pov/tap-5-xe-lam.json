@@ -8,27 +8,109 @@
  "clip_seconds": 5,
  "no_captions": true,
  "clips": [
-  {"prompt": "a blue three-wheeled Lambro minibus (xe lam) parked at the corner of an old Saigon street at dawn, tamarind trees, thin exhaust smoke, empty street", "move": "push", "sfx": "chim", "voice": "Bạn còn nhớ không, cái tiếng máy xe lam nổ giòn mỗi sáng sớm ở đầu hẻm.", "seconds": 4},
-  {"prompt": "first-person view from a narrow Saigon alley at dawn, old houses with wooden doors, potted plants, a woman in a light blue ao ba ba seen from behind holding a woven rattan market basket, a 7-year-old boy in white shirt and blue shorts beside her", "move": "push", "sfx": "buoc_chan", "voice": "Má dắt mình ra đầu hẻm, tay xách cái giỏ đệm, đi chợ cho kịp buổi sáng."},
-  {"prompt": "a woman in a light blue ao ba ba and a 7-year-old boy in white shirt and blue shorts seen from behind climbing into the back of a blue three-wheeled Lambro minibus, wooden benches inside, other passengers with baskets", "move": "push", "sfx": "", "voice": "Xe lam tới, má bế mình leo lên phía sau, hai hàng ghế gỗ ngồi sát rạt."},
-  {"prompt": "inside the back of an old blue Lambro minibus, passengers seen from behind and from the side sitting knee to knee on two wooden benches, baskets of vegetables, a live chicken in a basket, morning light through the open back", "move": "pan_r", "sfx": "nen_lang_que", "voice": "Người ta chở đủ thứ, rau, cá, có bà còn ôm theo cả con gà, ai cũng cười nói rôm rả."},
-  {"prompt": "view from the open back of a moving blue Lambro minibus looking out at an old Saigon street lined with tamarind trees, bicycles and a cyclo behind, golden morning light", "move": "pull", "sfx": "nen_lang_que", "voice": "Mình ngồi cuối xe, ngó ra sau, hàng me xanh chạy lùi lại từng cây một."},
-  {"prompt": "close-up of a small boy's hand holding the metal bar at the back of an old Lambro minibus, the street blurred behind, no face", "move": "push", "sfx": "", "voice": "Xe chạy xóc lắm, mình phải nắm chặt thanh sắt, vậy mà vui ghê, bạn nhỉ."},
-  {"prompt": "a man's hand reaching out to tap the metal roof of an old blue Lambro minibus to signal a stop, no face, morning street", "move": "push", "sfx": "", "voice": "Tới chợ, má gõ lên mui xe mấy cái, bác tài tấp vô lề."},
-  {"prompt": "a busy traditional morning market in old Saigon in 1993, stalls of vegetables and fruit under canvas umbrellas, women in conical hats seen from behind, a woman in a light blue ao ba ba with a 7-year-old boy walking between stalls", "move": "pan_l", "sfx": "nen_lang_que", "voice": "Chợ sáng đông nghẹt, tiếng rao, tiếng trả giá, mùi rau thơm, mùi cà phê."},
-  {"prompt": "close-up of a small boy's hands holding a warm banh bo (Vietnamese steamed rice cake) wrapped in banana leaf at a market stall, no face, morning light", "move": "push", "sfx": "", "voice": "Má mua cho mình cái bánh bò còn nóng, cầm trong tay mà thơm cả đường về."},
-  {"prompt": "a woman in a light blue ao ba ba and a 7-year-old boy seen from behind sitting at the back of a blue Lambro minibus heading home, full market basket on her lap, late morning light", "move": "pull", "sfx": "nen_lang_que", "voice": "Chuyến xe lam về, giỏ đầy rau cá, mình ngủ gục trên vai má lúc nào không hay."},
-  {"prompt": "the same Saigon street today, modern traffic of motorbikes, tall glass buildings, old tamarind trees still standing, soft afternoon light", "move": "pull", "sfx": "nen_lang_que", "voice": "Giờ Sài Gòn đông đúc, xe lam cũng không còn chạy nữa."},
-  {"prompt": "an old faded blue Lambro minibus parked alone at the end of a quiet alley today, rust, soft evening light", "move": "pull", "sfx": "", "voice": "Mà mỗi lần nghe tiếng máy nổ giòn, mình lại nhớ chuyến xe sáng ngồi cạnh má, bạn nhỉ.", "seconds": 6}
+  {
+   "prompt": "a blue three-wheeled Lambro minibus (xe lam) parked at the corner of an old Saigon street at dawn, tamarind trees, thin exhaust smoke, empty street",
+   "move": "push",
+   "sfx": "chim",
+   "voice": "Sáu giờ sáng, tiếng máy xe lam đã nổ giòn tan ở đầu hẻm nhà mình.",
+   "seconds": 4
+  },
+  {
+   "prompt": "first-person view from a narrow Saigon alley at dawn, old houses with wooden doors, potted plants, a woman in a light blue ao ba ba seen from behind holding a woven rattan market basket, a 7-year-old boy in white shirt and blue shorts beside her",
+   "move": "push",
+   "sfx": "buoc_chan",
+   "voice": "Má dắt mình ra đầu hẻm, tay xách cái giỏ đệm, đi chợ cho kịp buổi sáng."
+  },
+  {
+   "prompt": "a woman in a light blue ao ba ba and a 7-year-old boy in white shirt and blue shorts seen from behind climbing into the back of a blue three-wheeled Lambro minibus, wooden benches inside, other passengers with baskets",
+   "move": "push",
+   "sfx": "",
+   "voice": "Xe lam tới, má bế mình leo lên phía sau, hai hàng ghế gỗ ngồi sát rạt."
+  },
+  {
+   "prompt": "inside the back of an old blue Lambro minibus, passengers seen from behind and from the side sitting knee to knee on two wooden benches, baskets of vegetables, a live chicken in a basket, morning light through the open back",
+   "move": "pan_r",
+   "sfx": "nen_lang_que",
+   "voice": "Người ta chở đủ thứ, rau, cá, có bà còn ôm theo cả con gà, ai cũng cười nói rôm rả."
+  },
+  {
+   "prompt": "view from the open back of a moving blue Lambro minibus looking out at an old Saigon street lined with tamarind trees, bicycles and a cyclo behind, golden morning light",
+   "move": "pull",
+   "sfx": "nen_lang_que",
+   "voice": "Mình ngồi cuối xe, ngó ra sau, hàng me xanh chạy lùi lại từng cây một."
+  },
+  {
+   "prompt": "close-up of a small boy's hand holding the metal bar at the back of an old Lambro minibus, the street blurred behind, no face",
+   "move": "push",
+   "sfx": "",
+   "voice": "Xe chạy xóc lắm, mình phải nắm chặt thanh sắt, vậy mà vui ghê, bạn nhỉ."
+  },
+  {
+   "prompt": "a man's hand reaching out to tap the metal roof of an old blue Lambro minibus to signal a stop, no face, morning street",
+   "move": "push",
+   "sfx": "",
+   "voice": "Tới chợ, má gõ lên mui xe mấy cái, bác tài tấp vô lề."
+  },
+  {
+   "prompt": "a busy traditional morning market in old Saigon in 1993, stalls of vegetables and fruit under canvas umbrellas, women in conical hats seen from behind, a woman in a light blue ao ba ba with a 7-year-old boy walking between stalls",
+   "move": "pan_l",
+   "sfx": "nen_lang_que",
+   "voice": "Chợ sáng đông nghẹt, tiếng rao, tiếng trả giá, mùi rau thơm, mùi cà phê."
+  },
+  {
+   "prompt": "close-up of a small boy's hands holding a warm banh bo (Vietnamese steamed rice cake) wrapped in banana leaf at a market stall, no face, morning light",
+   "move": "push",
+   "sfx": "",
+   "voice": "Má mua cho mình cái bánh bò còn nóng, cầm trong tay mà thơm cả đường về."
+  },
+  {
+   "prompt": "a woman in a light blue ao ba ba and a 7-year-old boy seen from behind sitting at the back of a blue Lambro minibus heading home, full market basket on her lap, late morning light",
+   "move": "pull",
+   "sfx": "nen_lang_que",
+   "voice": "Chuyến xe lam về, giỏ đầy rau cá, mình ngủ gục trên vai má lúc nào không hay."
+  },
+  {
+   "prompt": "the same Saigon street today, modern traffic of motorbikes, tall glass buildings, old tamarind trees still standing, soft afternoon light",
+   "move": "pull",
+   "sfx": "nen_lang_que",
+   "voice": "Giờ Sài Gòn đông đúc, xe lam cũng không còn chạy nữa."
+  },
+  {
+   "prompt": "an old faded blue Lambro minibus parked alone at the end of a quiet alley today, rust, soft evening light",
+   "move": "pull",
+   "sfx": "",
+   "voice": "Mà mỗi lần nghe tiếng máy nổ giòn, lòng lại nhớ chuyến xe sáng ngồi cạnh má ngày nào.",
+   "seconds": 6
+  }
  ],
  "kling": [
-  {"clip": 1, "prompt": "The blue three-wheeled minibus sits at the street corner at dawn, engine idling with thin exhaust smoke drifting, tamarind leaves gently moving, slow push-in camera. No people faces, no modern vehicles, no text."},
-  {"clip": 5, "prompt": "View from the back of a moving minibus: the tree-lined old street recedes slowly, bicycles and a cyclo follow behind, soft bumpy handheld motion, golden morning light. No faces, no modern cars, no text."},
-  {"clip": 8, "prompt": "Slow pan through the busy morning market, canvas umbrellas sway, women in conical hats seen from behind move between stalls, the mother and boy walk away from camera. No faces close up, no modern objects, no text."}
+  {
+   "clip": 1,
+   "prompt": "The blue three-wheeled minibus sits at the street corner at dawn, engine idling with thin exhaust smoke drifting, tamarind leaves gently moving, slow push-in camera. No people faces, no modern vehicles, no text."
+  },
+  {
+   "clip": 5,
+   "prompt": "View from the back of a moving minibus: the tree-lined old street recedes slowly, bicycles and a cyclo follow behind, soft bumpy handheld motion, golden morning light. No faces, no modern cars, no text."
+  },
+  {
+   "clip": 8,
+   "prompt": "Slow pan through the busy morning market, canvas umbrellas sway, women in conical hats seen from behind move between stalls, the mother and boy walk away from camera. No faces close up, no modern objects, no text."
+  }
  ],
  "meta": {
   "youtube_description": "POV: Bạn thức dậy ở Sài Gòn năm 1993, theo má đi chuyến xe lam ra chợ sáng. Sài Gòn xưa, tập 1.\nNgày xưa bạn đi xe lam tuyến nào, còn nhớ giá vé không? Kể mình nghe nghen.\n\nHình ảnh và giọng đọc được tái hiện bằng AI dựa trên tư liệu và ký ức.\nGiọng đọc: ElevenLabs (elevenlabs.io)\n\n#Shorts #SaiGonXua #VietNamXua #HoaiNiem #KyUcQueNha",
-  "tags": ["Sài Gòn xưa", "xe lam", "Sài Gòn thập niên 90", "chợ Sài Gòn", "POV Việt Nam xưa", "Việt Nam xưa", "ký ức quê nhà", "hoài niệm", "old Saigon", "Lambro"],
+  "tags": [
+   "Sài Gòn xưa",
+   "xe lam",
+   "Sài Gòn thập niên 90",
+   "chợ Sài Gòn",
+   "POV Việt Nam xưa",
+   "Việt Nam xưa",
+   "ký ức quê nhà",
+   "hoài niệm",
+   "old Saigon",
+   "Lambro"
+  ],
   "tiktok": "POV: Bạn thức dậy ở Sài Gòn năm 1993 #saigonxua #vietnamxua #pov #hoainiem #kyuc",
   "playlist": "Sài Gòn xưa",
   "publish": "2026-11-27T19:00:00+07:00"

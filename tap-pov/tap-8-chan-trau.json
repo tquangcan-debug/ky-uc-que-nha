@@ -8,27 +8,109 @@
  "clip_seconds": 5,
  "no_captions": true,
  "clips": [
-  {"prompt": "a grey water buffalo grazing alone on a grassy field edge beside green rice paddies in golden afternoon light, bamboo grove behind", "move": "push", "sfx": "chim", "voice": "Bạn còn nhớ không, buổi chiều nào mình cũng dắt trâu ra đồng.", "seconds": 4},
-  {"prompt": "first-person view of a village gate made of bamboo, a 10-year-old boy in a faded brown shirt and rolled-up trousers seen from behind leading a grey water buffalo by a rope out along an earthen path, afternoon", "move": "push", "sfx": "buoc_chan", "voice": "Tan học về, quăng cái cặp, mình dắt con trâu nhà ra khỏi ngõ."},
-  {"prompt": "a 10-year-old boy in a faded brown shirt seen from behind walking barefoot on a narrow earthen path between rice fields leading a grey water buffalo, other boys with buffaloes ahead, golden light", "move": "pan_r", "sfx": "nen_lang_que", "voice": "Lũ bạn trong xóm cũng ra cả, mỗi đứa một con, đi hàng dài trên bờ ruộng."},
-  {"prompt": "a 10-year-old boy in a faded brown shirt seen from behind sitting on the back of a grey water buffalo in a green field, a conical hat on his head, golden afternoon light", "move": "push", "sfx": "nen_lang_que", "voice": "Mình leo lên lưng trâu ngồi, đung đưa, thấy mình oai như ông tướng, bạn nhỉ."},
-  {"prompt": "close-up of a boy's hands holding a sickle cutting green grass into a bamboo basket at the edge of a rice field, no face", "move": "push", "sfx": "", "voice": "Rồi tranh thủ cắt một gánh cỏ đầy, để tối về trâu có cái ăn."},
-  {"prompt": "several village boys seen from behind playing on a grassy field, one kicking a ball made of straw, buffaloes grazing in the background, golden light", "move": "pan_l", "sfx": "nen_lang_que", "voice": "Trâu gặm cỏ, cả bọn bày trò đá bóng rơm, đánh khăng, chơi đến quên cả giờ."},
-  {"prompt": "village boys seen from behind gathered around a small straw fire at the edge of a harvested field, roasting sweet potatoes, smoke rising, evening light", "move": "push", "sfx": "", "voice": "Có hôm đốt rơm nướng khoai, khoai cháy đen mà ăn ngon nhớ đời."},
-  {"prompt": "a grey water buffalo half submerged in a village pond, a boy seen from behind splashing water on its back, evening light reflected on the water", "move": "push", "sfx": "nuoc", "voice": "Chiều muộn, dắt trâu xuống ao tắm, nước mát rượi, trâu lim dim mắt."},
-  {"prompt": "a 10-year-old boy seen from behind riding a grey water buffalo home along the earthen path at sunset, carrying a basket of grass, rice fields glowing orange", "move": "pull", "sfx": "buoc_chan", "voice": "Mặt trời lặn, mình cưỡi trâu về, gánh cỏ đung đưa bên hông."},
-  {"prompt": "a thatched village house at dusk, smoke from the kitchen, a mother in a brown blouse seen from behind waiting at the bamboo gate", "move": "push", "sfx": "nen_lang_que", "voice": "Đầu ngõ, mẹ đã đứng chờ, khói bếp bay lên mái rạ."},
-  {"prompt": "the same rice fields today with a modern harvesting machine and concrete roads, no buffaloes, soft evening light", "move": "pull", "sfx": "nen_lang_que", "voice": "Giờ ra đồng toàn máy móc, chẳng còn mấy ai nuôi trâu nữa."},
-  {"prompt": "an old wooden buffalo yoke and a worn rope hanging on a mud wall today, soft evening light", "move": "pull", "sfx": "", "voice": "Nhưng tiếng sáo diều, lưng trâu chiều ấy, mình nhớ hoài không quên, bạn nhỉ.", "seconds": 6}
+  {
+   "prompt": "a grey water buffalo grazing alone on a grassy field edge beside green rice paddies in golden afternoon light, bamboo grove behind",
+   "move": "push",
+   "sfx": "chim",
+   "voice": "Tan học, mình chỉ chờ có một việc thôi, là dắt trâu ra đồng.",
+   "seconds": 4
+  },
+  {
+   "prompt": "first-person view of a village gate made of bamboo, a 10-year-old boy in a faded brown shirt and rolled-up trousers seen from behind leading a grey water buffalo by a rope out along an earthen path, afternoon",
+   "move": "push",
+   "sfx": "buoc_chan",
+   "voice": "Quăng cái cặp lên giường, mình dắt con trâu nhà ra khỏi ngõ."
+  },
+  {
+   "prompt": "a 10-year-old boy in a faded brown shirt seen from behind walking barefoot on a narrow earthen path between rice fields leading a grey water buffalo, other boys with buffaloes ahead, golden light",
+   "move": "pan_r",
+   "sfx": "nen_lang_que",
+   "voice": "Lũ bạn trong xóm cũng ra cả, mỗi đứa một con, đi hàng dài trên bờ ruộng."
+  },
+  {
+   "prompt": "a 10-year-old boy in a faded brown shirt seen from behind sitting on the back of a grey water buffalo in a green field, a conical hat on his head, golden afternoon light",
+   "move": "push",
+   "sfx": "nen_lang_que",
+   "voice": "Mình leo lên lưng trâu ngồi, đung đưa, thấy mình oai như ông tướng, bạn nhỉ."
+  },
+  {
+   "prompt": "close-up of a boy's hands holding a sickle cutting green grass into a bamboo basket at the edge of a rice field, no face",
+   "move": "push",
+   "sfx": "",
+   "voice": "Rồi tranh thủ cắt một gánh cỏ đầy, để tối về trâu có cái ăn."
+  },
+  {
+   "prompt": "several village boys seen from behind playing on a grassy field, one kicking a ball made of straw, buffaloes grazing in the background, golden light",
+   "move": "pan_l",
+   "sfx": "nen_lang_que",
+   "voice": "Trâu gặm cỏ, cả bọn bày trò đá bóng rơm, đánh khăng, chơi đến quên cả giờ."
+  },
+  {
+   "prompt": "village boys seen from behind gathered around a small straw fire at the edge of a harvested field, roasting sweet potatoes, smoke rising, evening light",
+   "move": "push",
+   "sfx": "",
+   "voice": "Có hôm đốt rơm nướng khoai, khoai cháy đen mà ăn ngon nhớ đời."
+  },
+  {
+   "prompt": "a grey water buffalo half submerged in a village pond, a boy seen from behind splashing water on its back, evening light reflected on the water",
+   "move": "push",
+   "sfx": "nuoc",
+   "voice": "Chiều muộn, dắt trâu xuống ao tắm, nước mát rượi, trâu lim dim mắt."
+  },
+  {
+   "prompt": "a 10-year-old boy seen from behind riding a grey water buffalo home along the earthen path at sunset, carrying a basket of grass, rice fields glowing orange",
+   "move": "pull",
+   "sfx": "buoc_chan",
+   "voice": "Mặt trời lặn, mình cưỡi trâu về, gánh cỏ đung đưa bên hông."
+  },
+  {
+   "prompt": "a thatched village house at dusk, smoke from the kitchen, a mother in a brown blouse seen from behind waiting at the bamboo gate",
+   "move": "push",
+   "sfx": "nen_lang_que",
+   "voice": "Đầu ngõ, mẹ đã đứng chờ, khói bếp bay lên mái rạ."
+  },
+  {
+   "prompt": "the same rice fields today with a modern harvesting machine and concrete roads, no buffaloes, soft evening light",
+   "move": "pull",
+   "sfx": "nen_lang_que",
+   "voice": "Giờ ra đồng toàn máy móc, chẳng còn mấy ai nuôi trâu nữa."
+  },
+  {
+   "prompt": "an old wooden buffalo yoke and a worn rope hanging on a mud wall today, soft evening light",
+   "move": "pull",
+   "sfx": "",
+   "voice": "Nhưng lưng trâu buổi chiều ấy, gánh cỏ đầy ấy, làm sao mà quên được.",
+   "seconds": 6
+  }
  ],
  "kling": [
-  {"clip": 4, "prompt": "The boy sits on the buffalo's back seen from behind, the buffalo slowly walks forward through the field, its tail swishing, grass swaying in the breeze, gentle tracking camera. No faces, no modern objects, no text."},
-  {"clip": 8, "prompt": "The buffalo rests in the pond while the boy seen from behind splashes water over its back, ripples spread and sparkle in the evening light, slow push-in. No faces, no text."},
-  {"clip": 9, "prompt": "The boy rides the buffalo home away from camera along the earthen path at sunset, the grass basket swaying, rice fields glowing, slow pull-back camera. No faces, no modern objects, no text."}
+  {
+   "clip": 4,
+   "prompt": "The boy sits on the buffalo's back seen from behind, the buffalo slowly walks forward through the field, its tail swishing, grass swaying in the breeze, gentle tracking camera. No faces, no modern objects, no text."
+  },
+  {
+   "clip": 8,
+   "prompt": "The buffalo rests in the pond while the boy seen from behind splashes water over its back, ripples spread and sparkle in the evening light, slow push-in. No faces, no text."
+  },
+  {
+   "clip": 9,
+   "prompt": "The boy rides the buffalo home away from camera along the earthen path at sunset, the grass basket swaying, rice fields glowing, slow pull-back camera. No faces, no modern objects, no text."
+  }
  ],
  "meta": {
   "youtube_description": "POV: Bạn thức dậy ở một làng quê Bắc Bộ năm 1991, buổi chiều dắt trâu ra đồng cùng lũ bạn. Làng quê ngày ấy.\nTuổi thơ bạn có từng đi chăn trâu, cắt cỏ không? Kể mình nghe nhé.\n\nHình ảnh và giọng đọc được tái hiện bằng AI dựa trên tư liệu và ký ức.\nGiọng đọc: ElevenLabs (elevenlabs.io)\n\n#Shorts #LangQue #TuoiTho #VietNamXua #KyUcQueNha",
-  "tags": ["chăn trâu", "làng quê Việt Nam xưa", "tuổi thơ 8x 9x", "đồng quê Bắc Bộ", "POV Việt Nam xưa", "Việt Nam thập niên 90", "Việt Nam xưa", "ký ức quê nhà", "hoài niệm", "ký ức tuổi thơ"],
+  "tags": [
+   "chăn trâu",
+   "làng quê Việt Nam xưa",
+   "tuổi thơ 8x 9x",
+   "đồng quê Bắc Bộ",
+   "POV Việt Nam xưa",
+   "Việt Nam thập niên 90",
+   "Việt Nam xưa",
+   "ký ức quê nhà",
+   "hoài niệm",
+   "ký ức tuổi thơ"
+  ],
   "tiktok": "POV: Bạn thức dậy ở làng quê Bắc Bộ năm 1991 #chantrau #langque #vietnamxua #pov #kyuctuoitho",
   "playlist": "Làng quê ngày ấy",
   "publish": "2026-11-29T12:00:00+07:00"

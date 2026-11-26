@@ -8,27 +8,109 @@
  "clip_seconds": 5,
  "no_captions": true,
  "clips": [
-  {"prompt": "smoke rising through the thatched roof of a small village kitchen at dusk, banana trees, a mud-walled house", "move": "push", "sfx": "chim", "voice": "Bạn còn nhớ không, cứ chiều chiều là khói bếp nhà ai cũng bay lên mái rạ.", "seconds": 4},
-  {"prompt": "first-person view inside a dim thatched village kitchen, a woman in a brown blouse and black trousers with a headscarf seen from behind crouching by a straw fire under a blackened pot, warm firelight", "move": "push", "sfx": "", "voice": "Mẹ ngồi bên bếp rơm, lửa đỏ hắt lên vách đất, khói cay xè cả mắt."},
-  {"prompt": "close-up of a woman's hands peeling and cutting sweet potatoes into chunks into a bamboo basket on the earthen floor, firelight, no face", "move": "push", "sfx": "", "voice": "Gạo thì ít, mẹ gọt mấy củ khoai lang, thái từng miếng to cho vào nồi."},
-  {"prompt": "close-up of a blackened clay pot of rice mixed with sweet potato chunks steaming over a straw fire, firelight", "move": "push", "sfx": "", "voice": "Nồi cơm độn khoai sôi lục bục, mùi thơm bay khắp gian bếp."},
-  {"prompt": "a 7-year-old girl in a faded patched shirt seen from behind sitting on a low stool feeding straw into the kitchen fire, her mother beside her, warm firelight", "move": "pan_r", "sfx": "", "voice": "Mình ngồi cạnh mẹ, đút rơm vào bếp, chỉ mong nồi cơm chín thật nhanh."},
-  {"prompt": "a simple family meal on a round bamboo tray on a straw mat in a small village house: a pot of rice with sweet potato, a bowl of boiled water spinach, a small dish of salted eggplant, a bowl of fish sauce, oil lamp light", "move": "push", "sfx": "", "voice": "Mâm cơm chỉ có rau muống luộc, đĩa cà muối với bát nước chấm."},
-  {"prompt": "a family seen from behind sitting around a round bamboo tray on a straw mat eating dinner by the light of a small oil lamp, father, mother, two children", "move": "push", "sfx": "", "voice": "Cả nhà ngồi quây quần bên ngọn đèn dầu, ăn ngon lành, bạn nhỉ."},
-  {"prompt": "close-up of a mother's chopsticks picking the white rice to one side and putting it into a child's bowl, keeping the sweet potato for herself, oil lamp light, hands only", "move": "push", "sfx": "", "voice": "Mẹ lựa hết cơm trắng cho các con, phần mình mẹ chỉ ăn khoai."},
-  {"prompt": "close-up of a small child's hands holding a bowl of rice with a piece of sweet potato, oil lamp light, no face", "move": "push", "sfx": "", "voice": "Hồi ấy mình đâu biết, cứ tưởng mẹ thích ăn khoai thật."},
-  {"prompt": "the dark village at night, a small oil lamp glowing through the door of a thatched house, crickets, moonlight", "move": "pull", "sfx": "nen_lang_que", "voice": "Bữa cơm nghèo mà ấm, tiếng cười cứ thế vang ra tận ngõ."},
-  {"prompt": "a modern family dining table today with many dishes, white rice, meat and fish, soft warm light, no people", "move": "pull", "sfx": "", "voice": "Giờ mâm cơm nhà mình chẳng thiếu thứ gì."},
-  {"prompt": "close-up of an elderly woman's wrinkled hands holding a roasted sweet potato today, soft window light, no face", "move": "pull", "sfx": "", "voice": "Mà sao mình vẫn thèm bát cơm độn khoai mẹ nấu ngày nào, bạn nhỉ.", "seconds": 6}
+  {
+   "prompt": "smoke rising through the thatched roof of a small village kitchen at dusk, banana trees, a mud-walled house",
+   "move": "push",
+   "sfx": "chim",
+   "voice": "Cứ chập choạng tối, khói bếp rơm lại bay lên khắp các mái nhà trong xóm.",
+   "seconds": 4
+  },
+  {
+   "prompt": "first-person view inside a dim thatched village kitchen, a woman in a brown blouse and black trousers with a headscarf seen from behind crouching by a straw fire under a blackened pot, warm firelight",
+   "move": "push",
+   "sfx": "",
+   "voice": "Mẹ ngồi bên bếp rơm, lửa đỏ hắt lên vách đất, khói cay xè cả mắt."
+  },
+  {
+   "prompt": "close-up of a woman's hands peeling and cutting sweet potatoes into chunks into a bamboo basket on the earthen floor, firelight, no face",
+   "move": "push",
+   "sfx": "",
+   "voice": "Gạo thì ít, mẹ gọt mấy củ khoai lang, thái từng miếng to cho vào nồi."
+  },
+  {
+   "prompt": "close-up of a blackened clay pot of rice mixed with sweet potato chunks steaming over a straw fire, firelight",
+   "move": "push",
+   "sfx": "",
+   "voice": "Nồi cơm độn khoai sôi lục bục, mùi thơm bay khắp gian bếp."
+  },
+  {
+   "prompt": "a 7-year-old girl in a faded patched shirt seen from behind sitting on a low stool feeding straw into the kitchen fire, her mother beside her, warm firelight",
+   "move": "pan_r",
+   "sfx": "",
+   "voice": "Mình ngồi cạnh mẹ, đút rơm vào bếp, chỉ mong nồi cơm chín thật nhanh."
+  },
+  {
+   "prompt": "a simple family meal on a round bamboo tray on a straw mat in a small village house: a pot of rice with sweet potato, a bowl of boiled water spinach, a small dish of salted eggplant, a bowl of fish sauce, oil lamp light",
+   "move": "push",
+   "sfx": "",
+   "voice": "Mâm cơm chỉ có rau muống luộc, đĩa cà muối với bát nước chấm."
+  },
+  {
+   "prompt": "a family seen from behind sitting around a round bamboo tray on a straw mat eating dinner by the light of a small oil lamp, father, mother, two children",
+   "move": "push",
+   "sfx": "",
+   "voice": "Cả nhà ngồi quây quần bên ngọn đèn dầu, ăn ngon lành."
+  },
+  {
+   "prompt": "close-up of a mother's chopsticks picking the white rice to one side and putting it into a child's bowl, keeping the sweet potato for herself, oil lamp light, hands only",
+   "move": "push",
+   "sfx": "",
+   "voice": "Mẹ lựa hết cơm trắng cho các con, phần mình mẹ chỉ ăn khoai."
+  },
+  {
+   "prompt": "close-up of a small child's hands holding a bowl of rice with a piece of sweet potato, oil lamp light, no face",
+   "move": "push",
+   "sfx": "",
+   "voice": "Hồi ấy mình đâu biết, cứ tưởng mẹ thích ăn khoai thật."
+  },
+  {
+   "prompt": "the dark village at night, a small oil lamp glowing through the door of a thatched house, crickets, moonlight",
+   "move": "pull",
+   "sfx": "nen_lang_que",
+   "voice": "Bữa cơm nghèo mà ấm, tiếng cười cứ thế vang ra tận ngõ."
+  },
+  {
+   "prompt": "a modern family dining table today with many dishes, white rice, meat and fish, soft warm light, no people",
+   "move": "pull",
+   "sfx": "",
+   "voice": "Giờ mâm cơm nhà mình chẳng thiếu thứ gì."
+  },
+  {
+   "prompt": "close-up of an elderly woman's wrinkled hands holding a roasted sweet potato today, soft window light, no face",
+   "move": "pull",
+   "sfx": "",
+   "voice": "Mà sao vẫn thèm bát cơm độn khoai mẹ nấu ngày nào, bạn ạ.",
+   "seconds": 6
+  }
  ],
  "kling": [
-  {"clip": 2, "prompt": "Inside the dim thatched kitchen the straw fire flickers and crackles, smoke curls up under the roof, the mother seen from behind slowly adds straw to the fire, slow push-in. No faces, no modern objects, no text."},
-  {"clip": 4, "prompt": "The clay pot of rice and sweet potato bubbles and steams over the straw fire, steam rising and drifting in the warm firelight, very slow push-in. No people, no text."},
-  {"clip": 7, "prompt": "The family seen from behind eats quietly around the bamboo tray, the small oil lamp flame flickers gently, hands move chopsticks slowly, static camera with slight drift. No faces, no modern objects, no text."}
+  {
+   "clip": 2,
+   "prompt": "Inside the dim thatched kitchen the straw fire flickers and crackles, smoke curls up under the roof, the mother seen from behind slowly adds straw to the fire, slow push-in. No faces, no modern objects, no text."
+  },
+  {
+   "clip": 4,
+   "prompt": "The clay pot of rice and sweet potato bubbles and steams over the straw fire, steam rising and drifting in the warm firelight, very slow push-in. No people, no text."
+  },
+  {
+   "clip": 7,
+   "prompt": "The family seen from behind eats quietly around the bamboo tray, the small oil lamp flame flickers gently, hands move chopsticks slowly, static camera with slight drift. No faces, no modern objects, no text."
+  }
  ],
  "meta": {
   "youtube_description": "POV: Bạn thức dậy ở một làng quê Bắc Bộ năm 1985, ngồi bên bếp rơm chờ nồi cơm độn khoai của mẹ. Bữa cơm ngày ấy, tập 1.\nNgày xưa nhà bạn ăn cơm độn khoai, độn sắn hay độn ngô? Kể mình nghe nhé.\n\nHình ảnh và giọng đọc được tái hiện bằng AI dựa trên tư liệu và ký ức.\nGiọng đọc: ElevenLabs (elevenlabs.io)\n\n#Shorts #BuaComNgayAy #VietNamXua #HoaiNiem #KyUcQueNha",
-  "tags": ["cơm độn khoai", "bữa cơm ngày xưa", "bếp rơm", "làng quê Việt Nam xưa", "POV Việt Nam xưa", "Việt Nam thập niên 80", "Việt Nam xưa", "ký ức quê nhà", "hoài niệm", "mẹ"],
+  "tags": [
+   "cơm độn khoai",
+   "bữa cơm ngày xưa",
+   "bếp rơm",
+   "làng quê Việt Nam xưa",
+   "POV Việt Nam xưa",
+   "Việt Nam thập niên 80",
+   "Việt Nam xưa",
+   "ký ức quê nhà",
+   "hoài niệm",
+   "mẹ"
+  ],
   "tiktok": "POV: Bạn thức dậy ở làng quê Bắc Bộ năm 1985 #comdonkhoai #vietnamxua #pov #hoainiem #kyuc",
   "playlist": "Bữa cơm ngày ấy",
   "publish": "2026-11-28T19:00:00+07:00"
