@@ -1,0 +1,36 @@
+{
+ "title": "Tuổi thơ 8x 9x · Thả diều trên đê chiều hè",
+ "banner": "Bạn thức dậy ở làng ven sông Hồng\nhơn 30 năm về trước.",
+ "thumbnail_clip": 9,
+ "thumbnail_text": "THẢ DIỀU TRÊN ĐÊ",
+ "end_question": "Con diều tuổi thơ của bạn ai làm cho?",
+ "style": "Photorealistic photograph, natural soft light, realistic true-to-life colors, slightly faded like an old memory, a village on the Red River dyke in northern Vietnam, summer 1993, rice fields, grassy dyke, bamboo groves, authentic period details, no motorbikes, no modern objects, no text, no logos, no close-up faces",
+ "clip_seconds": 5,
+ "no_captions": true,
+ "clips": [
+  {"prompt": "a homemade paper kite high in a warm orange summer evening sky above a grassy river dyke, long thin thread", "move": "push", "sfx": "chim", "voice": "Bạn còn nhớ không, những buổi chiều hè, cả bầu trời trên đê chỉ toàn là diều.", "seconds": 4},
+  {"prompt": "first-person view of the yard of an old northern Vietnamese village house with a tiled roof, a bamboo grove, afternoon sun, a man in a white singlet and dark trousers seen from behind sitting on a low stool splitting bamboo with a knife", "move": "push", "sfx": "chim", "voice": "Trưa ấy bố ngồi giữa sân, chẻ tre vót nan làm cho mình một con diều."},
+  {"prompt": "close-up of a man's hands gluing old newspaper onto a thin bamboo kite frame with cooked rice paste, on a wooden plank, afternoon light, no face", "move": "push", "sfx": "", "voice": "Giấy là tờ báo cũ, hồ dán là mấy hạt cơm nguội, vậy mà bố làm khéo lắm."},
+  {"prompt": "close-up of a 9-year-old boy's hands winding a spool of sewing thread around a small wooden stick, no face, yard, afternoon light", "move": "push", "sfx": "", "voice": "Dây diều là cuộn chỉ khâu mình xin của mẹ, quấn vào cái que tre."},
+  {"prompt": "a 9-year-old boy in a faded blue shirt and brown shorts seen from behind running barefoot along a dirt path between green rice fields holding a newspaper kite, other kids running ahead, late afternoon", "move": "push", "sfx": "buoc_chan", "voice": "Chiều tan nắng, mình cùng lũ bạn chạy chân đất ra đê, đứa nào cũng cầm diều."},
+  {"prompt": "a 9-year-old boy in a faded blue shirt and brown shorts seen from behind running up a grassy river dyke pulling a thread, a newspaper kite rising behind him in the wind, late afternoon", "move": "pan_r", "sfx": "nen_lang_que", "voice": "Gió nồm thổi lên, mình chạy một mạch, con diều chao chao rồi vút lên cao."},
+  {"prompt": "several village children seen from behind standing on top of a grassy dyke holding kite threads, many homemade kites in the sky, river and fields below, golden hour", "move": "pan_l", "sfx": "nen_lang_que", "voice": "Trên đê đứa nào cũng ngửa cổ lên trời, thi xem diều ai bay cao hơn."},
+  {"prompt": "a kite tangled in the top of a tall bamboo grove at the edge of a village, thread hanging, evening sky", "move": "push", "sfx": "", "voice": "Có hôm diều mắc lên ngọn tre, cả bọn đứng dưới tiếc ngẩn ngơ, bạn nhỉ."},
+  {"prompt": "village children seen from behind sitting in a row on the grassy dyke at sunset, kites high in the orange sky, a water buffalo grazing below", "move": "push", "sfx": "nen_lang_que", "voice": "Rồi ngồi bệt trên cỏ, nhìn diều bay đến lúc mặt trời lặn hẳn sau sông."},
+  {"prompt": "a 9-year-old boy in a faded blue shirt seen from behind walking home along the dyke at dusk carrying a newspaper kite, smoke rising from village kitchens in the distance", "move": "pull", "sfx": "buoc_chan", "voice": "Mẹ gọi về ăn cơm, mình ôm con diều đi trên đê, khói bếp bay khắp làng."},
+  {"prompt": "the same river dyke today, paved concrete road on top, empty, a few modern houses in the distance, no kites in the sky, soft evening light", "move": "pull", "sfx": "nen_lang_que", "voice": "Giờ đê đã đổ bê tông, bọn trẻ cũng ít ai còn thả diều."},
+  {"prompt": "an old faded newspaper kite hanging on the wall of a village house today, soft window light", "move": "pull", "sfx": "", "voice": "Nhưng mỗi chiều có gió, mình vẫn ngước lên tìm con diều giấy bố làm năm ấy, bạn nhỉ.", "seconds": 6}
+ ],
+ "kling": [
+  {"clip": 1, "prompt": "The paper kite sways and dips in the wind high in the orange evening sky, the thread trembling, slow upward camera tilt, gentle clouds drifting. No people, no text."},
+  {"clip": 6, "prompt": "The boy runs away from camera up the grassy dyke pulling the thread, the newspaper kite lifts and climbs into the sky behind him, grass waving in the wind, tracking camera. No faces, no modern objects, no text."},
+  {"clip": 9, "prompt": "Children sit still on the dyke seen from behind while many kites drift gently in the orange sky, a buffalo slowly grazes below, sun sinking, very slow push-in. No faces, no text."}
+ ],
+ "meta": {
+  "youtube_description": "POV: Bạn thức dậy ở một làng ven sông Hồng năm 1993, có con diều giấy bố làm và một buổi chiều thả diều trên đê. Tuổi thơ 8x 9x, tập 1.\nCon diều tuổi thơ của bạn ai làm cho? Kể mình nghe nhé.\n\nHình ảnh và giọng đọc được tái hiện bằng AI dựa trên tư liệu và ký ức.\nGiọng đọc: ElevenLabs (elevenlabs.io)\n\n#Shorts #TuoiTho #8x9x #VietNamXua #KyUcQueNha",
+  "tags": ["tuổi thơ 8x 9x", "thả diều", "trò chơi dân gian", "ký ức tuổi thơ", "làng quê Việt Nam xưa", "POV Việt Nam xưa", "Việt Nam xưa", "ký ức quê nhà", "Việt Nam thập niên 90", "hoài niệm"],
+  "tiktok": "POV: Bạn thức dậy ở làng ven sông Hồng năm 1993 #tuoitho #8x9x #vietnamxua #pov #kyuctuoitho",
+  "playlist": "Tuổi thơ 8x 9x",
+  "publish": "2026-11-28T12:00:00+07:00"
+ }
+}
