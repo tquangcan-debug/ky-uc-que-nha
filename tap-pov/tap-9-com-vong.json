@@ -8,29 +8,124 @@
  "clip_seconds": 5,
  "no_captions": true,
  "clips": [
-  {"prompt": "dry yellow leaves drifting down onto an empty old Hanoi street in the early autumn morning, wooden shutters still closed, thin mist", "move": "push", "sfx": "chim", "voice": "Gió heo may vừa sang, lá vàng đã rơi lác đác trên con phố nhỏ nhà mình.", "seconds": 4},
-  {"prompt": "first-person view from a wooden window of an old tube house looking down at a quiet old quarter street in autumn morning, a woman street vendor in a brown blouse and conical hat seen from behind walking with a shoulder pole and two flat baskets covered with lotus leaves", "move": "push", "sfx": "buoc_chan", "voice": "Sáng sớm, mình nghe tiếng rao lanh lảnh vọng lên tận cửa sổ."},
-  {"prompt": "a woman street vendor in a brown blouse and conical hat seen from behind resting her shoulder pole with two baskets under a tree on an old Hanoi pavement, a 8-year-old girl in a light yellow shirt and her grandmother approaching", "move": "pan_r", "sfx": "nen_lang_que", "voice": "Bà dắt mình xuống phố, gánh cốm của cô hàng đã dừng dưới gốc sấu."},
-  {"prompt": "close-up of a flat bamboo basket full of fresh green young rice flakes (com) wrapped in lotus leaves tied with straw, soft autumn light", "move": "push", "sfx": "", "voice": "Cốm xanh non gói trong lá sen, buộc bằng sợi rơm vàng, thơm dịu cả một góc phố."},
-  {"prompt": "close-up of a vendor's hands opening a lotus leaf package of green rice flakes and handing it over, no face", "move": "push", "sfx": "", "voice": "Cô mở lá sen ra, mùi cốm mới hòa với mùi sen, ngọt lịm."},
-  {"prompt": "close-up of a small girl's fingers pinching a few green rice flakes from a lotus leaf, no face, soft light", "move": "push", "sfx": "", "voice": "Mình nhón từng hạt cho vào miệng, dẻo dẻo, ngọt ngọt, chẳng nỡ ăn nhanh."},
-  {"prompt": "a grandmother in a dark ao ba ba and a 8-year-old girl in a light yellow shirt seen from behind walking hand in hand along an old Hanoi street under falling yellow leaves, the girl holding a lotus leaf package", "move": "push", "sfx": "buoc_chan", "voice": "Hai bà cháu đi chậm qua mấy con phố, lá sấu rụng lạo xạo dưới chân."},
-  {"prompt": "a grandmother's hands placing ripe yellow persimmons and a lotus leaf package of green rice flakes on a plate on an old wooden table, no face, window light", "move": "push", "sfx": "", "voice": "Về nhà, bà bày cốm với mấy quả hồng chín đỏ, bảo đấy là hương vị mùa thu."},
-  {"prompt": "close-up of a cup of hot lotus tea steaming beside green rice flakes and persimmons on a wooden tray, soft autumn light", "move": "push", "sfx": "", "voice": "Chén trà sen nóng, đĩa cốm xanh, cả nhà ngồi nhâm nhi bên hiên."},
-  {"prompt": "an old quarter street in late afternoon autumn light, an empty shoulder pole and baskets leaning against a yellow wall, falling leaves", "move": "pull", "sfx": "nen_lang_que", "voice": "Chiều xuống, tiếng rao lại xa dần về cuối phố."},
-  {"prompt": "the same old Hanoi street today, busy with motorbikes, shop signs, a few old trees still standing, autumn afternoon light", "move": "pull", "sfx": "nen_lang_que", "voice": "Giờ cốm bán quanh năm, mua lúc nào cũng có."},
-  {"prompt": "a single lotus leaf package of green rice flakes on an old wooden windowsill today, yellow leaves outside, soft light", "move": "pull", "sfx": "", "voice": "Mà sao cứ đến mùa thu, lại thèm đúng gói cốm bà mua cho dưới gốc sấu năm nào, bạn nhỉ.", "seconds": 6}
+  {
+   "prompt": "dry yellow leaves drifting down onto an empty old Hanoi street in the early autumn morning, wooden shutters still closed, thin mist",
+   "move": "push",
+   "sfx": "chim",
+   "voice": "Gió heo may vừa sang, lá vàng đã rơi lác đác trên con phố nhỏ nhà mình.",
+   "seconds": 4
+  },
+  {
+   "prompt": "first-person view from a wooden window of an old tube house looking down at a quiet old quarter street in autumn morning, a woman street vendor in a brown blouse and conical hat seen from behind walking with a shoulder pole and two flat baskets covered with lotus leaves",
+   "move": "push",
+   "sfx": "buoc_chan",
+   "voice": "Sáng sớm, mình nghe tiếng rao lanh lảnh vọng lên tận cửa sổ."
+  },
+  {
+   "prompt": "a woman street vendor in a brown blouse and conical hat seen from behind resting her shoulder pole with two baskets under a tree on an old Hanoi pavement, a 8-year-old girl in a light yellow shirt and her grandmother approaching",
+   "move": "pan_r",
+   "sfx": "nen_lang_que",
+   "voice": "Bà dắt mình xuống phố, gánh cốm của cô hàng đã dừng dưới gốc sấu."
+  },
+  {
+   "prompt": "close-up of a flat bamboo basket full of fresh green young rice flakes (com) wrapped in lotus leaves tied with straw, soft autumn light",
+   "move": "push",
+   "sfx": "",
+   "voice": "Cốm xanh non gói trong lá sen, buộc bằng sợi rơm vàng, thơm dịu cả một góc phố."
+  },
+  {
+   "prompt": "close-up of a vendor's hands opening a lotus leaf package of green rice flakes and handing it over, no face",
+   "move": "push",
+   "sfx": "",
+   "voice": "Cô mở lá sen ra, mùi cốm mới hòa với mùi sen, ngọt lịm."
+  },
+  {
+   "prompt": "close-up of a small girl's fingers pinching a few green rice flakes from a lotus leaf, no face, soft light",
+   "move": "push",
+   "sfx": "",
+   "voice": "Mình nhón từng hạt cho vào miệng, dẻo dẻo, ngọt ngọt, chẳng nỡ ăn nhanh."
+  },
+  {
+   "prompt": "a grandmother in a dark ao ba ba and a 8-year-old girl in a light yellow shirt seen from behind walking hand in hand along an old Hanoi street under falling yellow leaves, the girl holding a lotus leaf package",
+   "move": "push",
+   "sfx": "buoc_chan",
+   "voice": "Hai bà cháu đi chậm qua mấy con phố, lá sấu rụng lạo xạo dưới chân."
+  },
+  {
+   "prompt": "a grandmother's hands placing ripe yellow persimmons and a lotus leaf package of green rice flakes on a plate on an old wooden table, no face, window light",
+   "move": "push",
+   "sfx": "",
+   "voice": "Về nhà, bà bày cốm với mấy quả hồng chín đỏ, bảo đấy là hương vị mùa thu."
+  },
+  {
+   "prompt": "close-up of a cup of hot lotus tea steaming beside green rice flakes and persimmons on a wooden tray, soft autumn light",
+   "move": "push",
+   "sfx": "",
+   "voice": "Chén trà sen nóng, đĩa cốm xanh, cả nhà ngồi nhâm nhi bên hiên."
+  },
+  {
+   "prompt": "an old quarter street in late afternoon autumn light, an empty shoulder pole and baskets leaning against a yellow wall, falling leaves",
+   "move": "pull",
+   "sfx": "nen_lang_que",
+   "voice": "Chiều xuống, tiếng rao lại xa dần về cuối phố."
+  },
+  {
+   "prompt": "the same old Hanoi street today, busy with motorbikes, shop signs, a few old trees still standing, autumn afternoon light",
+   "move": "pull",
+   "sfx": "nen_lang_que",
+   "voice": "Giờ cốm bán quanh năm, mua lúc nào cũng có."
+  },
+  {
+   "prompt": "a single lotus leaf package of green rice flakes on an old wooden windowsill today, yellow leaves outside, soft light",
+   "move": "pull",
+   "sfx": "",
+   "voice": "Mà sao cứ đến mùa thu, lại thèm đúng gói cốm bà mua cho dưới gốc sấu năm nào, bạn nhỉ.",
+   "seconds": 6
+  },
+  {
+   "prompt": "a single lotus leaf package of green rice flakes on an old wooden windowsill today, yellow leaves outside, soft light",
+   "move": "pull",
+   "sfx": "",
+   "voice": "Tập sau, mình kể bạn nghe chuyện chiếc xe đạp thủng săm giữa trưa hè. Theo dõi kênh để mình kể tiếp nhé.",
+   "seconds": 5,
+   "cta": true
+  }
  ],
  "kling": [
-  {"clip": 1, "prompt": "Yellow leaves drift slowly down onto the empty old street in thin morning mist, a light breeze, very slow push-in camera. No people, no text."},
-  {"clip": 2, "prompt": "Seen from the window above, the street vendor walks slowly away down the quiet old street, the shoulder pole and baskets bouncing gently with each step, leaves falling. No faces, no motorbikes, no text."},
-  {"clip": 7, "prompt": "The grandmother and the girl walk hand in hand away from camera along the old street, yellow leaves falling around them, gentle tracking camera. No faces, no modern objects, no text."}
+  {
+   "clip": 1,
+   "prompt": "Yellow leaves drift slowly down onto the empty old street in thin morning mist, a light breeze, very slow push-in camera. No people, no text."
+  },
+  {
+   "clip": 2,
+   "prompt": "Seen from the window above, the street vendor walks slowly away down the quiet old street, the shoulder pole and baskets bouncing gently with each step, leaves falling. No faces, no motorbikes, no text."
+  },
+  {
+   "clip": 7,
+   "prompt": "The grandmother and the girl walk hand in hand away from camera along the old street, yellow leaves falling around them, gentle tracking camera. No faces, no modern objects, no text."
+  }
  ],
  "meta": {
   "youtube_description": "POV: Bạn thức dậy ở phố cổ Hà Nội mùa thu năm 1990, theo bà ra mua gói cốm Vòng dưới gốc sấu. Phố cũ Hà Nội.\nMùa thu Hà Nội của bạn có mùi gì? Kể mình nghe nhé.\n\nHình ảnh và giọng đọc được tái hiện bằng AI dựa trên tư liệu và ký ức.\nGiọng đọc: ElevenLabs (elevenlabs.io)\n\n#Shorts #HaNoiXua #MuaThuHaNoi #VietNamXua #KyUcQueNha",
-  "tags": ["Hà Nội xưa", "cốm Vòng", "mùa thu Hà Nội", "phố cổ Hà Nội", "POV Việt Nam xưa", "Hà Nội thập niên 90", "Việt Nam xưa", "ký ức quê nhà", "hoài niệm", "old Hanoi"],
+  "tags": [
+   "Hà Nội xưa",
+   "cốm Vòng",
+   "mùa thu Hà Nội",
+   "phố cổ Hà Nội",
+   "POV Việt Nam xưa",
+   "Hà Nội thập niên 90",
+   "Việt Nam xưa",
+   "ký ức quê nhà",
+   "hoài niệm",
+   "old Hanoi"
+  ],
   "tiktok": "POV: Bạn thức dậy ở phố cổ Hà Nội mùa thu năm 1990 #hanoixua #muathuhanoi #vietnamxua #pov #hoainiem",
   "playlist": "Phố cũ Hà Nội",
   "publish": "2026-11-29T19:00:00+07:00"
+ },
+ "retention": {
+  "hook_first_clip_motion": true,
+  "loudnorm": "-14 LUFS",
+  "sfx_louder": true
  }
 }

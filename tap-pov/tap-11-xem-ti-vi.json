@@ -81,6 +81,14 @@
    "sfx": "",
    "voice": "Vậy mà vui nhất vẫn là những tối cả xóm chen chúc trước chiếc ti vi đen trắng ấy.",
    "seconds": 6
+  },
+  {
+   "prompt": "an old black-and-white television with wooden casing sitting dusty in the corner of a storage room today, soft light",
+   "move": "pull",
+   "sfx": "",
+   "voice": "Tập sau, mình kể chuyện đổi đôi dép đứt lấy que kem trưa hè. Theo dõi kênh để mình kể tiếp nhé.",
+   "seconds": 5,
+   "cta": true
   }
  ],
  "kling": [
@@ -114,5 +122,10 @@
   "tiktok": "POV: Bạn thức dậy ở một xóm nhỏ Hà Nội năm 1988 #baocap #tividentrang #vietnamxua #pov #hoainiem",
   "playlist": "Thời bao cấp",
   "publish": "2026-11-30T19:00:00+07:00"
+ },
+ "retention": {
+  "hook_first_clip_motion": true,
+  "loudnorm": "-14 LUFS",
+  "sfx_louder": true
  }
 }

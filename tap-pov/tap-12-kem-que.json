@@ -81,6 +81,14 @@
    "sfx": "",
    "voice": "Mà chẳng que kem nào ngọt bằng que kem đổi từ đôi dép đứt trưa hè năm ấy.",
    "seconds": 6
+  },
+  {
+   "prompt": "an old wooden stick from an ice pop lying on a sunlit windowsill today, bamboo hedge outside, soft light",
+   "move": "pull",
+   "sfx": "",
+   "voice": "Còn nhiều chuyện ngày xưa lắm, theo dõi kênh để mình kể tiếp cho bạn nghe nhé.",
+   "seconds": 5,
+   "cta": true
   }
  ],
  "kling": [
@@ -114,5 +122,10 @@
   "tiktok": "POV: Bạn thức dậy ở làng quê Bắc Bộ trưa hè năm 1992 #tuoitho #8x9x #kemque #vietnamxua #pov",
   "playlist": "Tuổi thơ 8x 9x",
   "publish": "2026-12-01T12:00:00+07:00"
+ },
+ "retention": {
+  "hook_first_clip_motion": true,
+  "loudnorm": "-14 LUFS",
+  "sfx_louder": true
  }
 }

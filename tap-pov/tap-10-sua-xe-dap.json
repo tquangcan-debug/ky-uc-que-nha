@@ -8,29 +8,124 @@
  "clip_seconds": 5,
  "no_captions": true,
  "clips": [
-  {"prompt": "a flat old bicycle tyre on a dusty road at noon, an old Phuong Hoang bicycle leaning to one side, a schoolbag on the rack", "move": "push", "sfx": "chim", "voice": "Xẹp! Chiếc xe đạp đang đi bỗng nặng trịch, thế là thủng săm rồi.", "seconds": 4},
-  {"prompt": "a 11-year-old boy in a white school shirt and blue shorts with a red scarf seen from behind pushing an old bicycle with a flat tyre along a dusty roadside at noon", "move": "push", "sfx": "buoc_chan", "voice": "Mình dắt xe đi bộ dưới nắng trưa, mồ hôi nhễ nhại."},
-  {"prompt": "a roadside bicycle repair spot under a big old tree at the mouth of an alley: a wooden box of tools, a hand pump, inner tubes hanging on a nail on the tree, a basin of water, an old man in a faded green shirt and pith helmet seen from behind sitting on a low stool", "move": "pan_r", "sfx": "nen_lang_que", "voice": "May quá, đầu ngõ có bác sửa xe, ngồi dưới gốc bàng từ sáng tới tối."},
-  {"prompt": "close-up of an old man's hands using metal levers to pry off a bicycle tyre and pull out the inner tube, no face, dappled shade", "move": "push", "sfx": "", "voice": "Bác lật ngược xe, nạy lốp, rút cái săm ra chỉ trong một loáng."},
-  {"prompt": "close-up of an old man's hands pressing a pumped-up bicycle inner tube into an aluminium basin of water, small air bubbles rising, no face", "move": "push", "sfx": "nuoc", "voice": "Bơm căng rồi nhúng xuống chậu nước, chỗ nào sủi tăm là chỗ ấy thủng."},
-  {"prompt": "close-up of an old man's hands scraping a small rubber patch with sandpaper and gluing it onto an inner tube, no face", "move": "push", "sfx": "", "voice": "Bác dũa nhẹ, phết keo, dán miếng vá, ấn chặt bằng ngón tay chai sạn."},
-  {"prompt": "a 11-year-old boy in a white school shirt seen from behind squatting beside the repair spot watching the old man work, bicycle upside down, afternoon shade", "move": "push", "sfx": "", "voice": "Mình ngồi xổm bên cạnh, nhìn chăm chú như xem ảo thuật."},
-  {"prompt": "close-up of an old man's hand working an old hand pump to inflate a bicycle tyre, no face, dappled light", "move": "push", "sfx": "", "voice": "Xong bác bơm căng, bóp thử, gật đầu một cái là xong."},
-  {"prompt": "close-up of a boy's hand giving a few old small paper banknotes to an old man's weathered hand, no faces", "move": "push", "sfx": "", "voice": "Tiền vá chỉ mấy trăm đồng, bác còn dặn đi cẩn thận kẻo đinh."},
-  {"prompt": "a 11-year-old boy in a white school shirt with a red scarf seen from behind riding an old bicycle away down a sunny small town street, schoolbag on the rack", "move": "pull", "sfx": "nen_lang_que", "voice": "Mình đạp xe đi, lốp căng tròn, gió mát cả lưng áo."},
-  {"prompt": "the same alley mouth today, a modern motorbike repair shop with metal shutters, the old tree gone, afternoon light", "move": "pull", "sfx": "nen_lang_que", "voice": "Giờ đầu ngõ là tiệm sửa xe máy, gốc bàng cũng không còn."},
-  {"prompt": "an old wooden box of bicycle tools and a rusty hand pump left in the corner of a yard today, soft evening light", "move": "pull", "sfx": "", "voice": "Nhưng tiếng bơm xe phì phò buổi trưa ấy, vẫn còn văng vẳng trong trí nhớ.", "seconds": 6}
+  {
+   "prompt": "a flat old bicycle tyre on a dusty road at noon, an old Phuong Hoang bicycle leaning to one side, a schoolbag on the rack",
+   "move": "push",
+   "sfx": "chim",
+   "voice": "Xẹp! Chiếc xe đạp đang đi bỗng nặng trịch, thế là thủng săm rồi.",
+   "seconds": 4
+  },
+  {
+   "prompt": "a 11-year-old boy in a white school shirt and blue shorts with a red scarf seen from behind pushing an old bicycle with a flat tyre along a dusty roadside at noon",
+   "move": "push",
+   "sfx": "buoc_chan",
+   "voice": "Mình dắt xe đi bộ dưới nắng trưa, mồ hôi nhễ nhại."
+  },
+  {
+   "prompt": "a roadside bicycle repair spot under a big old tree at the mouth of an alley: a wooden box of tools, a hand pump, inner tubes hanging on a nail on the tree, a basin of water, an old man in a faded green shirt and pith helmet seen from behind sitting on a low stool",
+   "move": "pan_r",
+   "sfx": "nen_lang_que",
+   "voice": "May quá, đầu ngõ có bác sửa xe, ngồi dưới gốc bàng từ sáng tới tối."
+  },
+  {
+   "prompt": "close-up of an old man's hands using metal levers to pry off a bicycle tyre and pull out the inner tube, no face, dappled shade",
+   "move": "push",
+   "sfx": "",
+   "voice": "Bác lật ngược xe, nạy lốp, rút cái săm ra chỉ trong một loáng."
+  },
+  {
+   "prompt": "close-up of an old man's hands pressing a pumped-up bicycle inner tube into an aluminium basin of water, small air bubbles rising, no face",
+   "move": "push",
+   "sfx": "nuoc",
+   "voice": "Bơm căng rồi nhúng xuống chậu nước, chỗ nào sủi tăm là chỗ ấy thủng."
+  },
+  {
+   "prompt": "close-up of an old man's hands scraping a small rubber patch with sandpaper and gluing it onto an inner tube, no face",
+   "move": "push",
+   "sfx": "",
+   "voice": "Bác dũa nhẹ, phết keo, dán miếng vá, ấn chặt bằng ngón tay chai sạn."
+  },
+  {
+   "prompt": "a 11-year-old boy in a white school shirt seen from behind squatting beside the repair spot watching the old man work, bicycle upside down, afternoon shade",
+   "move": "push",
+   "sfx": "",
+   "voice": "Mình ngồi xổm bên cạnh, nhìn chăm chú như xem ảo thuật."
+  },
+  {
+   "prompt": "close-up of an old man's hand working an old hand pump to inflate a bicycle tyre, no face, dappled light",
+   "move": "push",
+   "sfx": "",
+   "voice": "Xong bác bơm căng, bóp thử, gật đầu một cái là xong."
+  },
+  {
+   "prompt": "close-up of a boy's hand giving a few old small paper banknotes to an old man's weathered hand, no faces",
+   "move": "push",
+   "sfx": "",
+   "voice": "Tiền vá chỉ mấy trăm đồng, bác còn dặn đi cẩn thận kẻo đinh."
+  },
+  {
+   "prompt": "a 11-year-old boy in a white school shirt with a red scarf seen from behind riding an old bicycle away down a sunny small town street, schoolbag on the rack",
+   "move": "pull",
+   "sfx": "nen_lang_que",
+   "voice": "Mình đạp xe đi, lốp căng tròn, gió mát cả lưng áo."
+  },
+  {
+   "prompt": "the same alley mouth today, a modern motorbike repair shop with metal shutters, the old tree gone, afternoon light",
+   "move": "pull",
+   "sfx": "nen_lang_que",
+   "voice": "Giờ đầu ngõ là tiệm sửa xe máy, gốc bàng cũng không còn."
+  },
+  {
+   "prompt": "an old wooden box of bicycle tools and a rusty hand pump left in the corner of a yard today, soft evening light",
+   "move": "pull",
+   "sfx": "",
+   "voice": "Nhưng tiếng bơm xe phì phò buổi trưa ấy, vẫn còn văng vẳng trong trí nhớ.",
+   "seconds": 6
+  },
+  {
+   "prompt": "an old wooden box of bicycle tools and a rusty hand pump left in the corner of a yard today, soft evening light",
+   "move": "pull",
+   "sfx": "",
+   "voice": "Tập sau là buổi tối cả xóm chen nhau xem chung một chiếc ti vi. Theo dõi kênh để mình kể tiếp nhé.",
+   "seconds": 5,
+   "cta": true
+  }
  ],
  "kling": [
-  {"clip": 3, "prompt": "Dappled sunlight flickers through the big tree onto the roadside repair spot, inner tubes hanging on the trunk sway slightly, the old man seen from behind shifts on his stool, slow pan. No faces, no motorbikes, no text."},
-  {"clip": 5, "prompt": "The hands press the inner tube into the basin of water, small air bubbles rise and burst on the surface, water ripples, very slow push-in. No faces, no text."},
-  {"clip": 10, "prompt": "The boy rides the bicycle away from camera down the sunny small town street, wheels turning smoothly, his shirt fluttering, gentle pull-back camera. No faces, no motorbikes, no text."}
+  {
+   "clip": 3,
+   "prompt": "Dappled sunlight flickers through the big tree onto the roadside repair spot, inner tubes hanging on the trunk sway slightly, the old man seen from behind shifts on his stool, slow pan. No faces, no motorbikes, no text."
+  },
+  {
+   "clip": 5,
+   "prompt": "The hands press the inner tube into the basin of water, small air bubbles rise and burst on the surface, water ripples, very slow push-in. No faces, no text."
+  },
+  {
+   "clip": 10,
+   "prompt": "The boy rides the bicycle away from camera down the sunny small town street, wheels turning smoothly, his shirt fluttering, gentle pull-back camera. No faces, no motorbikes, no text."
+  }
  ],
  "meta": {
   "youtube_description": "POV: Bạn thức dậy ở một thị trấn nhỏ năm 1990, xe đạp thủng săm giữa trưa và bác sửa xe đầu ngõ. Nghề xưa.\nĐầu ngõ nhà bạn ngày xưa có bác sửa xe đạp không? Kể mình nghe nhé.\n\nHình ảnh và giọng đọc được tái hiện bằng AI dựa trên tư liệu và ký ức.\nGiọng đọc: ElevenLabs (elevenlabs.io)\n\n#Shorts #NgheXua #VietNamXua #HoaiNiem #KyUcQueNha",
-  "tags": ["nghề xưa", "sửa xe đạp", "vá săm xe đạp", "xe đạp Phượng Hoàng", "POV Việt Nam xưa", "Việt Nam thập niên 90", "Việt Nam xưa", "ký ức quê nhà", "hoài niệm", "ký ức tuổi thơ"],
+  "tags": [
+   "nghề xưa",
+   "sửa xe đạp",
+   "vá săm xe đạp",
+   "xe đạp Phượng Hoàng",
+   "POV Việt Nam xưa",
+   "Việt Nam thập niên 90",
+   "Việt Nam xưa",
+   "ký ức quê nhà",
+   "hoài niệm",
+   "ký ức tuổi thơ"
+  ],
   "tiktok": "POV: Bạn thức dậy ở một thị trấn nhỏ năm 1990 #nghexua #xedap #vietnamxua #pov #hoainiem",
   "playlist": "Nghề xưa",
   "publish": "2026-11-30T12:00:00+07:00"
+ },
+ "retention": {
+  "hook_first_clip_motion": true,
+  "loudnorm": "-14 LUFS",
+  "sfx_louder": true
  }
 }
