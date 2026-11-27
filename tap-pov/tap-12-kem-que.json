@@ -1,0 +1,118 @@
+{
+ "title": "Tuổi thơ 8x 9x · Tiếng rao kem que trưa hè",
+ "banner": "Bạn thức dậy ở một làng quê Bắc Bộ\nhơn 30 năm về trước.",
+ "thumbnail_clip": 4,
+ "thumbnail_text": "KEM QUE TRƯA HÈ",
+ "end_question": "Ngày xưa bạn đổi kem bằng gì, tiền lẻ hay dép đứt?",
+ "style": "Photorealistic photograph, bright summer midday light, realistic true-to-life colors, slightly faded like an old memory, a village in northern Vietnam in summer 1992, bamboo hedges, earthen lanes, tiled-roof houses, authentic period details, no motorbikes, no modern objects, no text, no logos, no close-up faces",
+ "clip_seconds": 5,
+ "no_captions": true,
+ "clips": [
+  {
+   "prompt": "an empty sunlit village lane at noon, bamboo hedge, a sleeping dog in the shade, heat haze",
+   "move": "push",
+   "sfx": "chim",
+   "voice": "Trưa hè nắng chang chang, cả làng im phăng phắc, chỉ có tiếng ve.",
+   "seconds": 4
+  },
+  {
+   "prompt": "a man in a white shirt and conical hat seen from behind slowly pushing an old bicycle with a wooden ice cream box strapped on the rear rack along the village lane",
+   "move": "push",
+   "sfx": "buoc_chan",
+   "voice": "Rồi từ đầu ngõ vọng lại tiếng rao: kem đây, kem mút đây."
+  },
+  {
+   "prompt": "a 8-year-old boy in a faded blue singlet and shorts seen from behind jumping down from a wooden bed in a dim tiled-roof house, sunlight through the door",
+   "move": "push",
+   "sfx": "",
+   "voice": "Mình đang giả vờ ngủ trưa, nghe thấy là bật dậy ngay."
+  },
+  {
+   "prompt": "close-up of a small boy's hands digging out a pair of broken old rubber sandals and a few old coins from under a bed, no face",
+   "move": "push",
+   "sfx": "",
+   "voice": "Lục gầm giường, lôi ra đôi dép nhựa đứt quai với mấy đồng xu dành dụm."
+  },
+  {
+   "prompt": "children seen from behind gathered around a man with an old bicycle and a wooden ice cream box under a tree in a village lane, the box lid open, noon sun",
+   "move": "pan_r",
+   "sfx": "nen_lang_que",
+   "voice": "Lũ trẻ trong xóm đã vây quanh cái hòm gỗ, đứa nào cũng nhễ nhại mồ hôi."
+  },
+  {
+   "prompt": "close-up of a man's hand opening a wooden ice cream box lined with cloth, colourful simple ice pops on sticks inside, cold vapour rising, no face",
+   "move": "push",
+   "sfx": "",
+   "voice": "Bác mở nắp hòm, hơi lạnh phả ra, mát rượi cả mặt."
+  },
+  {
+   "prompt": "close-up of a boy's hand handing a pair of broken rubber sandals to a man's hand which gives back a green bean ice pop on a wooden stick, no faces",
+   "move": "push",
+   "sfx": "",
+   "voice": "Đôi dép đứt đổi được một que kem đậu xanh, mình sướng run cả người."
+  },
+  {
+   "prompt": "close-up of a child's hand holding a melting green bean ice pop on a stick, drops falling onto the dusty ground, bright sun, no face",
+   "move": "push",
+   "sfx": "",
+   "voice": "Kem tan nhanh lắm, phải mút vội, nước kem chảy cả xuống tay."
+  },
+  {
+   "prompt": "two children seen from behind sitting on a low brick wall in the shade of a bamboo hedge eating ice pops, legs dangling",
+   "move": "push",
+   "sfx": "nen_lang_que",
+   "voice": "Hai đứa ngồi trên bờ tường, chia nhau từng miếng, vừa ăn vừa cười."
+  },
+  {
+   "prompt": "a man pushing an old bicycle with a wooden ice cream box seen from behind disappearing down a sunlit village lane, children waving behind",
+   "move": "pull",
+   "sfx": "buoc_chan",
+   "voice": "Tiếng rao xa dần, cả bọn còn đứng nhìn theo mãi."
+  },
+  {
+   "prompt": "a small modern convenience store freezer full of packaged ice creams today, bright light, no people",
+   "move": "pull",
+   "sfx": "",
+   "voice": "Giờ kem bày đầy tủ, muốn ăn lúc nào cũng có."
+  },
+  {
+   "prompt": "an old wooden stick from an ice pop lying on a sunlit windowsill today, bamboo hedge outside, soft light",
+   "move": "pull",
+   "sfx": "",
+   "voice": "Mà chẳng que kem nào ngọt bằng que kem đổi từ đôi dép đứt trưa hè năm ấy.",
+   "seconds": 6
+  }
+ ],
+ "kling": [
+  {
+   "clip": 2,
+   "prompt": "The ice cream seller pushes his bicycle away from camera along the sunlit lane, the wooden box bouncing slightly on the rack, heat shimmering, gentle tracking. No faces, no motorbikes, no text."
+  },
+  {
+   "clip": 6,
+   "prompt": "The wooden box lid is open, cold white vapour rises and curls in the hot noon air over the ice pops, very slow push-in. No faces, no text."
+  },
+  {
+   "clip": 9,
+   "prompt": "Two children seen from behind sit on the brick wall swinging their legs while eating ice pops, bamboo leaves sway in the breeze, almost static camera. No faces, no text."
+  }
+ ],
+ "meta": {
+  "youtube_description": "POV: Bạn thức dậy ở một làng quê Bắc Bộ trưa hè năm 1992, nghe tiếng rao kem que và lục gầm giường tìm dép đứt. Tuổi thơ 8x 9x.\nNgày xưa bạn đổi kem bằng gì, tiền lẻ hay dép đứt? Kể mình nghe nhé.\n\nHình ảnh và giọng đọc được tái hiện bằng AI dựa trên tư liệu và ký ức.\nGiọng đọc: ElevenLabs (elevenlabs.io)\n\n#Shorts #TuoiTho #8x9x #VietNamXua #KyUcQueNha",
+  "tags": [
+   "tuổi thơ 8x 9x",
+   "kem que",
+   "kem mút",
+   "đổi dép lấy kem",
+   "làng quê Việt Nam xưa",
+   "POV Việt Nam xưa",
+   "Việt Nam thập niên 90",
+   "Việt Nam xưa",
+   "ký ức quê nhà",
+   "ký ức tuổi thơ"
+  ],
+  "tiktok": "POV: Bạn thức dậy ở làng quê Bắc Bộ trưa hè năm 1992 #tuoitho #8x9x #kemque #vietnamxua #pov",
+  "playlist": "Tuổi thơ 8x 9x",
+  "publish": "2026-12-01T12:00:00+07:00"
+ }
+}

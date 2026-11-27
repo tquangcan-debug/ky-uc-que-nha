@@ -1,0 +1,118 @@
+{
+ "title": "Thời bao cấp · Cả xóm xem chung một chiếc ti vi",
+ "banner": "Bạn thức dậy ở một xóm nhỏ Hà Nội\nhơn 35 năm về trước.",
+ "thumbnail_clip": 6,
+ "thumbnail_text": "CẢ XÓM XEM TI VI",
+ "end_question": "Ngày xưa nhà ai trong xóm bạn có chiếc ti vi đầu tiên?",
+ "style": "Photorealistic photograph, warm dim evening light, realistic true-to-life colors, slightly faded like an old memory, a small neighbourhood on the edge of Hanoi in 1988, subsidy era, simple brick houses, a courtyard, authentic period details, no motorbikes, no modern objects, no text, no logos, no close-up faces",
+ "clip_seconds": 5,
+ "no_captions": true,
+ "clips": [
+  {
+   "prompt": "a tall bamboo pole with a fishbone TV antenna on top of a tiled roof against a purple dusk sky",
+   "move": "push",
+   "sfx": "chim",
+   "voice": "Cả xóm chỉ có đúng một cái cột ăng ten cao vút, trên mái nhà bác tổ trưởng.",
+   "seconds": 4
+  },
+  {
+   "prompt": "first-person view along a narrow neighbourhood lane at dusk, children seen from behind running toward a lit doorway carrying small wooden stools",
+   "move": "push",
+   "sfx": "buoc_chan",
+   "voice": "Chiều nào cơm nước xong, lũ trẻ chúng mình cũng xách ghế chạy sang."
+  },
+  {
+   "prompt": "a small old black-and-white television set with wooden casing on a cabinet, covered with an embroidered cloth, in a simple brick room, warm lamp light",
+   "move": "push",
+   "sfx": "",
+   "voice": "Chiếc ti vi đen trắng được phủ khăn thêu cẩn thận, như của báu trong nhà."
+  },
+  {
+   "prompt": "close-up of a man's hand turning the round channel knob on an old television, the screen glowing with static, no face",
+   "move": "push",
+   "sfx": "",
+   "voice": "Bác chủ nhà vặn núm, màn hình rè rè một lúc mới lên hình."
+  },
+  {
+   "prompt": "a man seen from behind standing on a roof at dusk turning a bamboo antenna pole, a boy in the courtyard below shouting up",
+   "move": "pan_r",
+   "sfx": "nen_lang_que",
+   "voice": "Hình nhiễu thì bác trèo lên mái xoay cột ăng ten, cả sân hò nhau: được rồi, được rồi."
+  },
+  {
+   "prompt": "a crowded small room and doorway full of neighbours seen from behind, children sitting on the floor in front, adults on stools and standing at the door, all watching a small glowing black-and-white television",
+   "move": "push",
+   "sfx": "",
+   "voice": "Trong nhà, ngoài sân, chật kín người, đứa nào cũng ngồi sát màn hình nhất."
+  },
+  {
+   "prompt": "children seen from behind sitting cross-legged on a straw mat watching a small black-and-white television, the screen light on their backs",
+   "move": "push",
+   "sfx": "",
+   "voice": "Mình ngồi bệt dưới chiếu, mắt không rời phim hoạt hình chiều thứ bảy."
+  },
+  {
+   "prompt": "close-up of a plate of roasted peanuts and a teapot passed between neighbours' hands in a dim room, no faces",
+   "move": "push",
+   "sfx": "",
+   "voice": "Các bà chuyền nhau đĩa lạc rang, ấm trà nóng, ai cũng cười nói rôm rả."
+  },
+  {
+   "prompt": "an old television screen suddenly going black in a dim room, neighbours seen from behind, a candle being lit",
+   "move": "push",
+   "sfx": "",
+   "voice": "Đang hay thì mất điện, cả xóm cùng ồ lên một tiếng thật dài."
+  },
+  {
+   "prompt": "neighbours seen from behind walking home along a dark lane under the moon carrying stools, a lantern glowing",
+   "move": "pull",
+   "sfx": "nen_lang_que",
+   "voice": "Rồi mỗi nhà xách ghế về, vừa đi vừa kể lại đoạn phim còn dở."
+  },
+  {
+   "prompt": "a modern living room today with a large flat-screen TV, one person seen from behind alone on a sofa looking at a smartphone",
+   "move": "pull",
+   "sfx": "",
+   "voice": "Giờ nhà nào cũng có ti vi to, mỗi người một chiếc điện thoại."
+  },
+  {
+   "prompt": "an old black-and-white television with wooden casing sitting dusty in the corner of a storage room today, soft light",
+   "move": "pull",
+   "sfx": "",
+   "voice": "Vậy mà vui nhất vẫn là những tối cả xóm chen chúc trước chiếc ti vi đen trắng ấy.",
+   "seconds": 6
+  }
+ ],
+ "kling": [
+  {
+   "clip": 5,
+   "prompt": "The man on the roof slowly turns the bamboo antenna pole against the dusk sky, the antenna rotating, a light breeze, slow pan. No faces, no text."
+  },
+  {
+   "clip": 6,
+   "prompt": "The crowded room seen from behind, the television screen flickers and its light dances on the neighbours' backs, children shift a little, almost static camera. No faces, no modern objects, no text."
+  },
+  {
+   "clip": 10,
+   "prompt": "Neighbours walk away from camera along the dark moonlit lane carrying stools, the lantern swaying gently, slow pull-back. No faces, no text."
+  }
+ ],
+ "meta": {
+  "youtube_description": "POV: Bạn thức dậy ở một xóm nhỏ Hà Nội năm 1988, cả xóm kéo nhau sang xem chung chiếc ti vi đen trắng. Thời bao cấp.\nNgày xưa nhà ai trong xóm bạn có chiếc ti vi đầu tiên? Kể mình nghe nhé.\n\nHình ảnh và giọng đọc được tái hiện bằng AI dựa trên tư liệu và ký ức.\nGiọng đọc: ElevenLabs (elevenlabs.io)\n\n#Shorts #BaoCap #VietNamXua #HoaiNiem #KyUcQueNha",
+  "tags": [
+   "thời bao cấp",
+   "ti vi đen trắng",
+   "xem ti vi chung",
+   "Hà Nội thập niên 80",
+   "POV Việt Nam xưa",
+   "Việt Nam xưa",
+   "ký ức quê nhà",
+   "hoài niệm",
+   "ký ức tuổi thơ",
+   "old Hanoi"
+  ],
+  "tiktok": "POV: Bạn thức dậy ở một xóm nhỏ Hà Nội năm 1988 #baocap #tividentrang #vietnamxua #pov #hoainiem",
+  "playlist": "Thời bao cấp",
+  "publish": "2026-11-30T19:00:00+07:00"
+ }
+}
